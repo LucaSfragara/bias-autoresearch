@@ -1,0 +1,82 @@
+{
+  "baseline": {
+    "bias": 0.07112665755557827,
+    "ppl": 30.493982207066065,
+    "pronoun": 1.0,
+    "agreement": 1.0
+  },
+  "interventions": {
+    "No intervention": {
+      "bias": 0.07112665755557827,
+      "bias_reduction_pct": 0.0,
+      "ppl": 30.493982207066065,
+      "ppl_change_pct": 0.0,
+      "pronoun_acc": 1.0,
+      "agreement_acc": 1.0
+    },
+    "Head: L10H9 only": {
+      "bias": 0.03844462230335921,
+      "bias_reduction_pct": 45.94906660232328,
+      "ppl": 30.177161718363724,
+      "ppl_change_pct": -1.03896069247698,
+      "pronoun_acc": 1.0,
+      "agreement_acc": 1.0
+    },
+    "Head: L10H9 + L0H8": {
+      "bias": 0.031086236966075376,
+      "bias_reduction_pct": 56.29453423734324,
+      "ppl": 55.474929832086474,
+      "ppl_change_pct": 81.9209096909351,
+      "pronoun_acc": 1.0,
+      "agreement_acc": 1.0
+    },
+    "Head: Top-5 bias heads": {
+      "bias": 0.012788652401650325,
+      "bias_reduction_pct": 82.01988840589439,
+      "ppl": 131.77417244277132,
+      "ppl_change_pct": 332.13172864066473,
+      "pronoun_acc": 0.9375,
+      "agreement_acc": 0.875
+    },
+    "SAE: L0 F23406 only": {
+      "bias": 0.014007712831880782,
+      "bias_reduction_pct": 80.305959378261,
+      "ppl": 33.32874059561909,
+      "ppl_change_pct": 9.296123967358232,
+      "pronoun_acc": 1.0,
+      "agreement_acc": 1.0
+    },
+    "SAE: L10 top-5 features": {
+      "bias": 0.044939755270024764,
+      "bias_reduction_pct": 36.81728227576433,
+      "ppl": 30.527388582675073,
+      "ppl_change_pct": 0.10955071522691202,
+      "pronoun_acc": 1.0,
+      "agreement_acc": 1.0
+    },
+    "SAE: L10 top-10 features": {
+      "bias": 0.03854119001771324,
+      "bias_reduction_pct": 45.81329793601337,
+      "ppl": 30.51227712161245,
+      "ppl_change_pct": 0.05999516370854685,
+      "pronoun_acc": 1.0,
+      "agreement_acc": 1.0
+    },
+    "Combined: L10H9 + L0 SAE F23406": {
+      "bias": 0.008139675746133435,
+      "bias_reduction_pct": 88.55608287262325,
+      "ppl": 33.0885772664745,
+      "ppl_change_pct": 8.50854782360048,
+      "pronoun_acc": 1.0,
+      "agreement_acc": 1.0
+    },
+    "Combined: L10H9 + L10 SAE top-10": {
+      "bias": 0.02095684261294082,
+      "bias_reduction_pct": 70.53588157637638,
+      "ppl": 30.17030136093242,
+      "ppl_change_pct": -1.0614581065068016,
+      "pronoun_acc": 1.0,
+      "agreement_acc": 1.0
+    }
+  }
+}

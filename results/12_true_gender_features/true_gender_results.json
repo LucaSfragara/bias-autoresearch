@@ -1,0 +1,287 @@
+{
+  "baselines": {
+    "bias": 0.07112665755557827,
+    "bias_signed": 0.005619470722740516,
+    "ppl": 34.5268528831209,
+    "pronoun": 1.0,
+    "agreement": 1.0
+  },
+  "interventions": {
+    "Baseline": {
+      "bias": 0.07112665755557827,
+      "bias_signed": 0.005619470722740516,
+      "bias_reduction_pct": 0.0,
+      "ppl": 34.5268528831209,
+      "ppl_change_pct": 0.0,
+      "pronoun": 1.0,
+      "agreement": 1.0
+    },
+    "L0 F23406 clamp": {
+      "bias": 0.014007712831880782,
+      "bias_signed": 0.005136830779883894,
+      "bias_reduction_pct": 80.305959378261,
+      "ppl": 37.102100735687465,
+      "ppl_change_pct": 7.458681106222456,
+      "pronoun": 1.0,
+      "agreement": 1.0
+    },
+    "L10 F23440 (female) clamp": {
+      "bias": 0.05911491400911473,
+      "bias_signed": 0.019329000421566888,
+      "bias_reduction_pct": 16.88782231482983,
+      "ppl": 34.535565467482,
+      "ppl_change_pct": 0.025234226793251775,
+      "pronoun": 1.0,
+      "agreement": 1.0
+    },
+    "L10 F16291 (male) clamp": {
+      "bias": 0.07044848827645182,
+      "bias_signed": 0.004934234288521111,
+      "bias_reduction_pct": 0.9534671000061121,
+      "ppl": 34.50285058965637,
+      "ppl_change_pct": -0.06951775635556937,
+      "pronoun": 1.0,
+      "agreement": 1.0
+    },
+    "L10 both gender features clamp": {
+      "bias": 0.05844880358781666,
+      "bias_signed": 0.018658082420006394,
+      "bias_reduction_pct": 17.824335352543677,
+      "ppl": 34.51106342897079,
+      "ppl_change_pct": -0.04573093934613519,
+      "pronoun": 1.0,
+      "agreement": 1.0
+    },
+    "L10 top-5 female features clamp": {
+      "bias": 0.05128907634061761,
+      "bias_signed": 0.014255547599168495,
+      "bias_reduction_pct": 27.890501109882187,
+      "ppl": 34.54660287997156,
+      "ppl_change_pct": 0.05720184494518878,
+      "pronoun": 1.0,
+      "agreement": 1.0
+    },
+    "L10 top-5 male features clamp": {
+      "bias": 0.0684205993777141,
+      "bias_signed": 0.0020377410342916845,
+      "bias_reduction_pct": 3.8045625520216086,
+      "ppl": 34.502774909429725,
+      "ppl_change_pct": -0.06973694872418724,
+      "pronoun": 1.0,
+      "agreement": 1.0
+    },
+    "L10 top-5 both clamp": {
+      "bias": 0.04785561120370403,
+      "bias_signed": 0.010699241037946195,
+      "bias_reduction_pct": 32.71775611512502,
+      "ppl": 34.5220359445208,
+      "ppl_change_pct": -0.013951281967130965,
+      "pronoun": 1.0,
+      "agreement": 1.0
+    },
+    "L10 equalize (boost female 2x)": {
+      "bias": 0.08142649387591519,
+      "bias_signed": -0.005518994753947482,
+      "bias_reduction_pct": -14.480978966695629,
+      "ppl": 34.53877464984006,
+      "ppl_change_pct": 0.03452897013090666,
+      "pronoun": 1.0,
+      "agreement": 1.0
+    },
+    "L10 equalize (boost female 3x)": {
+      "bias": 0.08966286031645723,
+      "bias_signed": -0.014615740830777213,
+      "bias_reduction_pct": -26.060837663283692,
+      "ppl": 34.55794262901267,
+      "ppl_change_pct": 0.09004511936553646,
+      "pronoun": 1.0,
+      "agreement": 1.0
+    },
+    "L10 balanced (male 0.5x, female 1.5x)": {
+      "bias": 0.07623714765068143,
+      "bias_signed": -0.000567599874921143,
+      "bias_reduction_pct": -7.185055885846775,
+      "ppl": 34.519676559319265,
+      "ppl_change_pct": -0.020784760852459946,
+      "pronoun": 1.0,
+      "agreement": 1.0
+    },
+    "Head L10H9 + L10 both gender clamp": {
+      "bias": 0.03328661349369213,
+      "bias_signed": 0.023264881584327667,
+      "bias_reduction_pct": 53.20093107470709,
+      "ppl": 34.28584967853267,
+      "ppl_change_pct": -0.6980167158705932,
+      "pronoun": 1.0,
+      "agreement": 1.0
+    }
+  },
+  "dose_response": {
+    "female_F23440": [
+      {
+        "alpha": 0.0,
+        "bias": 0.05911491400911473,
+        "bias_signed": 0.019329000421566888,
+        "ppl": 34.535565467482,
+        "pronoun": 1.0,
+        "ppl_change_pct": 0.025234226793251775
+      },
+      {
+        "alpha": 0.25,
+        "bias": 0.062388997414382176,
+        "bias_signed": 0.015635017567547038,
+        "ppl": 34.53038617100088,
+        "pronoun": 1.0,
+        "ppl_change_pct": 0.010233448996743898
+      },
+      {
+        "alpha": 0.5,
+        "bias": 0.06547799920081161,
+        "bias_signed": 0.012122781079960987,
+        "ppl": 34.527442288125194,
+        "pronoun": 1.0,
+        "ppl_change_pct": 0.0017070915970430294
+      },
+      {
+        "alpha": 0.75,
+        "bias": 0.06838813559734262,
+        "bias_signed": 0.008786526235053316,
+        "ppl": 34.52638202490025,
+        "pronoun": 1.0,
+        "ppl_change_pct": -0.0013637449733567707
+      },
+      {
+        "alpha": 1.0,
+        "bias": 0.07112665755557827,
+        "bias_signed": 0.005619470722740516,
+        "ppl": 34.5268528831209,
+        "pronoun": 1.0,
+        "ppl_change_pct": 0.0
+      },
+      {
+        "alpha": 1.5,
+        "bias": 0.0765627691813279,
+        "bias_signed": -0.00023886754061095417,
+        "ppl": 34.531292876013026,
+        "pronoun": 1.0,
+        "ppl_change_pct": 0.012859535466941689
+      },
+      {
+        "alpha": 2.0,
+        "bias": 0.08142649387591519,
+        "bias_signed": -0.005518994753947482,
+        "ppl": 34.53877464984006,
+        "pronoun": 1.0,
+        "ppl_change_pct": 0.03452897013090666
+      },
+      {
+        "alpha": 3.0,
+        "bias": 0.08966286031645723,
+        "bias_signed": -0.014615740830777213,
+        "ppl": 34.55794262901267,
+        "pronoun": 1.0,
+        "ppl_change_pct": 0.09004511936553646
+      },
+      {
+        "alpha": 5.0,
+        "bias": 0.10181019913288765,
+        "bias_signed": -0.028581926558399574,
+        "ppl": 34.60131489939494,
+        "pronoun": 1.0,
+        "ppl_change_pct": 0.21566407029944662
+      }
+    ],
+    "male_F16291": [
+      {
+        "alpha": 0.0,
+        "bias": 0.07044848827645182,
+        "bias_signed": 0.004934234288521111,
+        "ppl": 34.50285058965637,
+        "pronoun": 1.0,
+        "ppl_change_pct": -0.06951775635556937
+      },
+      {
+        "alpha": 0.25,
+        "bias": 0.07063058004714548,
+        "bias_signed": 0.005118766496889293,
+        "ppl": 34.50908984359242,
+        "pronoun": 1.0,
+        "ppl_change_pct": -0.05144702758925946
+      },
+      {
+        "alpha": 0.5,
+        "bias": 0.07080401083221659,
+        "bias_signed": 0.005294170335400849,
+        "ppl": 34.51517442192572,
+        "pronoun": 1.0,
+        "ppl_change_pct": -0.033824285215669596
+      },
+      {
+        "alpha": 0.75,
+        "bias": 0.07096921553020366,
+        "bias_signed": 0.005460906360531226,
+        "ppl": 34.521089976297546,
+        "pronoun": 1.0,
+        "ppl_change_pct": -0.016691086334642384
+      },
+      {
+        "alpha": 1.0,
+        "bias": 0.07112665755557827,
+        "bias_signed": 0.005619470722740516,
+        "ppl": 34.5268528831209,
+        "pronoun": 1.0,
+        "ppl_change_pct": 0.0
+      },
+      {
+        "alpha": 1.5,
+        "bias": 0.07141981903696433,
+        "bias_signed": 0.005913757660891861,
+        "ppl": 34.53795009316702,
+        "pronoun": 1.0,
+        "ppl_change_pct": 0.03214080960023418
+      },
+      {
+        "alpha": 2.0,
+        "bias": 0.07168644961202517,
+        "bias_signed": 0.006180222367402166,
+        "ppl": 34.548485257930494,
+        "pronoun": 1.0,
+        "ppl_change_pct": 0.06265376946697356
+      },
+      {
+        "alpha": 3.0,
+        "bias": 0.07215079993475229,
+        "bias_signed": 0.006641317903995514,
+        "ppl": 34.56800807061924,
+        "pronoun": 1.0,
+        "ppl_change_pct": 0.1191976217399754
+      },
+      {
+        "alpha": 5.0,
+        "bias": 0.0728621996648144,
+        "bias_signed": 0.00734100723057054,
+        "ppl": 34.601312699502664,
+        "pronoun": 1.0,
+        "ppl_change_pct": 0.21565769875933993
+      }
+    ]
+  },
+  "features_used": {
+    "female": 23440,
+    "male": 16291,
+    "female_top5": [
+      23440,
+      5875,
+      11154,
+      15061,
+      23208
+    ],
+    "male_top5": [
+      16291,
+      4764,
+      1354,
+      5682,
+      4496
+    ]
+  }
+}

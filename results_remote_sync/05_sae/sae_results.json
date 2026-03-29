@@ -1,0 +1,1131 @@
+{
+  "feature_analysis": {
+    "0": {
+      "top_features": [
+        {
+          "feature_idx": 14924,
+          "gender_diff": 0.2552349865436554,
+          "male_mean_act": 0.5681489706039429,
+          "female_mean_act": 0.3129139840602875,
+          "neutral_mean_act": 0.5468472242355347,
+          "direction": "MALE"
+        },
+        {
+          "feature_idx": 15033,
+          "gender_diff": 0.15464013814926147,
+          "male_mean_act": 0.9826058745384216,
+          "female_mean_act": 0.8279657363891602,
+          "neutral_mean_act": 1.0531721115112305,
+          "direction": "MALE"
+        },
+        {
+          "feature_idx": 15603,
+          "gender_diff": -0.11929906904697418,
+          "male_mean_act": 0.0625232458114624,
+          "female_mean_act": 0.18182231485843658,
+          "neutral_mean_act": 0.0468924343585968,
+          "direction": "FEMALE"
+        },
+        {
+          "feature_idx": 7550,
+          "gender_diff": -0.0969473123550415,
+          "male_mean_act": 0.25858616828918457,
+          "female_mean_act": 0.3555334806442261,
+          "neutral_mean_act": 0.19680461287498474,
+          "direction": "FEMALE"
+        },
+        {
+          "feature_idx": 24182,
+          "gender_diff": -0.07955169677734375,
+          "male_mean_act": 0.5480414628982544,
+          "female_mean_act": 0.6275931596755981,
+          "neutral_mean_act": 0.49678391218185425,
+          "direction": "FEMALE"
+        },
+        {
+          "feature_idx": 19064,
+          "gender_diff": -0.054035484790802,
+          "male_mean_act": 0.1600031554698944,
+          "female_mean_act": 0.2140386402606964,
+          "neutral_mean_act": 0.1200023740530014,
+          "direction": "FEMALE"
+        },
+        {
+          "feature_idx": 7034,
+          "gender_diff": -0.023711025714874268,
+          "male_mean_act": 0.22504758834838867,
+          "female_mean_act": 0.24875861406326294,
+          "neutral_mean_act": 0.19848042726516724,
+          "direction": "FEMALE"
+        },
+        {
+          "feature_idx": 14084,
+          "gender_diff": 0.023039579391479492,
+          "male_mean_act": 0.4703528881072998,
+          "female_mean_act": 0.4473133087158203,
+          "neutral_mean_act": 0.4742034673690796,
+          "direction": "MALE"
+        },
+        {
+          "feature_idx": 16482,
+          "gender_diff": 0.019772708415985107,
+          "male_mean_act": 0.1293664276599884,
+          "female_mean_act": 0.1095937192440033,
+          "neutral_mean_act": 0.2853313088417053,
+          "direction": "MALE"
+        },
+        {
+          "feature_idx": 20998,
+          "gender_diff": -0.011827647686004639,
+          "male_mean_act": 0.8073107600212097,
+          "female_mean_act": 0.8191384077072144,
+          "neutral_mean_act": 0.7573992013931274,
+          "direction": "FEMALE"
+        },
+        {
+          "feature_idx": 23406,
+          "gender_diff": -0.011361956596374512,
+          "male_mean_act": 1.4357142448425293,
+          "female_mean_act": 1.4470762014389038,
+          "neutral_mean_act": 1.429429292678833,
+          "direction": "FEMALE"
+        },
+        {
+          "feature_idx": 0,
+          "gender_diff": 0.0,
+          "male_mean_act": 0.0,
+          "female_mean_act": 0.0,
+          "neutral_mean_act": 0.0,
+          "direction": "FEMALE"
+        },
+        {
+          "feature_idx": 1,
+          "gender_diff": 0.0,
+          "male_mean_act": 0.0,
+          "female_mean_act": 0.0,
+          "neutral_mean_act": 0.0,
+          "direction": "FEMALE"
+        },
+        {
+          "feature_idx": 2,
+          "gender_diff": 0.0,
+          "male_mean_act": 0.0,
+          "female_mean_act": 0.0,
+          "neutral_mean_act": 0.0,
+          "direction": "FEMALE"
+        },
+        {
+          "feature_idx": 3,
+          "gender_diff": 0.0,
+          "male_mean_act": 0.0,
+          "female_mean_act": 0.0,
+          "neutral_mean_act": 0.0,
+          "direction": "FEMALE"
+        },
+        {
+          "feature_idx": 4,
+          "gender_diff": 0.0,
+          "male_mean_act": 0.0,
+          "female_mean_act": 0.0,
+          "neutral_mean_act": 0.0,
+          "direction": "FEMALE"
+        },
+        {
+          "feature_idx": 5,
+          "gender_diff": 0.0,
+          "male_mean_act": 0.0,
+          "female_mean_act": 0.0,
+          "neutral_mean_act": 0.0,
+          "direction": "FEMALE"
+        },
+        {
+          "feature_idx": 6,
+          "gender_diff": 0.0,
+          "male_mean_act": 0.0,
+          "female_mean_act": 0.0,
+          "neutral_mean_act": 0.0,
+          "direction": "FEMALE"
+        },
+        {
+          "feature_idx": 7,
+          "gender_diff": 0.0,
+          "male_mean_act": 0.0,
+          "female_mean_act": 0.0,
+          "neutral_mean_act": 0.0,
+          "direction": "FEMALE"
+        },
+        {
+          "feature_idx": 8,
+          "gender_diff": 0.0,
+          "male_mean_act": 0.0,
+          "female_mean_act": 0.0,
+          "neutral_mean_act": 0.0,
+          "direction": "FEMALE"
+        }
+      ],
+      "n_sae_features": 24576,
+      "hook_point": "blocks.0.hook_resid_pre",
+      "n_active_male": 11,
+      "n_active_female": 11,
+      "n_active_neutral": 14,
+      "cumulative_clamping": [
+        {
+          "n_features": 1,
+          "bias": 0.01778234969424375,
+          "bias_reduction": 0.09519824120616249,
+          "bias_reduction_pct": 84.2607039381489,
+          "ppl": 42.59724479860728,
+          "ppl_increase_pct": 0.0
+        },
+        {
+          "n_features": 2,
+          "bias": 0.00797455782352093,
+          "bias_reduction": 0.10500603307688532,
+          "bias_reduction_pct": 92.94165682798508,
+          "ppl": 42.68104180713726,
+          "ppl_increase_pct": 0.1967193158293753
+        },
+        {
+          "n_features": 3,
+          "bias": 0.012812224461716445,
+          "bias_reduction": 0.1001683664386898,
+          "bias_reduction_pct": 88.65980044925543,
+          "ppl": 42.57708940093716,
+          "ppl_increase_pct": -0.04731620029747863
+        },
+        {
+          "n_features": 5,
+          "bias": 0.02803116904882093,
+          "bias_reduction": 0.08494942185158531,
+          "bias_reduction_pct": 75.18939419113966,
+          "ppl": 42.509256935389,
+          "ppl_increase_pct": -0.2065576391953821
+        },
+        {
+          "n_features": 8,
+          "bias": 0.012809798752035325,
+          "bias_reduction": 0.10017079214837092,
+          "bias_reduction_pct": 88.66194746376631,
+          "ppl": 53.40995328007409,
+          "ppl_increase_pct": 25.383586503276234
+        },
+        {
+          "n_features": 10,
+          "bias": 0.012255625488857428,
+          "bias_reduction": 0.10072496541154881,
+          "bias_reduction_pct": 89.15245053049783,
+          "ppl": 58.07338353895626,
+          "ppl_increase_pct": 36.33131394651837
+        },
+        {
+          "n_features": 10,
+          "bias": 0.012255625488857428,
+          "bias_reduction": 0.10072496541154881,
+          "bias_reduction_pct": 89.15245053049783,
+          "ppl": 58.07338353895626,
+          "ppl_increase_pct": 36.33131394651837
+        }
+      ]
+    },
+    "5": {
+      "top_features": [
+        {
+          "feature_idx": 8578,
+          "gender_diff": -1.419490933418274,
+          "male_mean_act": 0.0,
+          "female_mean_act": 1.419490933418274,
+          "neutral_mean_act": 0.07124019414186478,
+          "direction": "FEMALE"
+        },
+        {
+          "feature_idx": 23622,
+          "gender_diff": -0.8587809205055237,
+          "male_mean_act": 0.01463526114821434,
+          "female_mean_act": 0.8734161853790283,
+          "neutral_mean_act": 1.2740100622177124,
+          "direction": "FEMALE"
+        },
+        {
+          "feature_idx": 12292,
+          "gender_diff": -0.8516318798065186,
+          "male_mean_act": 0.1260409653186798,
+          "female_mean_act": 0.977672815322876,
+          "neutral_mean_act": 3.008894920349121,
+          "direction": "FEMALE"
+        },
+        {
+          "feature_idx": 17711,
+          "gender_diff": 0.8361889123916626,
+          "male_mean_act": 1.6109888553619385,
+          "female_mean_act": 0.7747999429702759,
+          "neutral_mean_act": 0.533088207244873,
+          "direction": "MALE"
+        },
+        {
+          "feature_idx": 19897,
+          "gender_diff": 0.7713296413421631,
+          "male_mean_act": 0.7952525615692139,
+          "female_mean_act": 0.023922938853502274,
+          "neutral_mean_act": 0.4668444097042084,
+          "direction": "MALE"
+        },
+        {
+          "feature_idx": 15957,
+          "gender_diff": 0.7657946348190308,
+          "male_mean_act": 0.7989429831504822,
+          "female_mean_act": 0.033148378133773804,
+          "neutral_mean_act": 0.09339229017496109,
+          "direction": "MALE"
+        },
+        {
+          "feature_idx": 1759,
+          "gender_diff": 0.7238991260528564,
+          "male_mean_act": 3.095669746398926,
+          "female_mean_act": 2.3717706203460693,
+          "neutral_mean_act": 2.309480905532837,
+          "direction": "MALE"
+        },
+        {
+          "feature_idx": 2706,
+          "gender_diff": -0.6715521812438965,
+          "male_mean_act": 3.505911350250244,
+          "female_mean_act": 4.177463531494141,
+          "neutral_mean_act": 3.842674493789673,
+          "direction": "FEMALE"
+        },
+        {
+          "feature_idx": 18777,
+          "gender_diff": -0.6138307452201843,
+          "male_mean_act": 0.0,
+          "female_mean_act": 0.6138307452201843,
+          "neutral_mean_act": 0.8965973854064941,
+          "direction": "FEMALE"
+        },
+        {
+          "feature_idx": 6154,
+          "gender_diff": 0.5018362998962402,
+          "male_mean_act": 2.5598320960998535,
+          "female_mean_act": 2.0579957962036133,
+          "neutral_mean_act": 2.571425199508667,
+          "direction": "MALE"
+        },
+        {
+          "feature_idx": 7769,
+          "gender_diff": -0.48107171058654785,
+          "male_mean_act": 0.1890345811843872,
+          "female_mean_act": 0.6701062917709351,
+          "neutral_mean_act": 1.0593268871307373,
+          "direction": "FEMALE"
+        },
+        {
+          "feature_idx": 23924,
+          "gender_diff": 0.46383702754974365,
+          "male_mean_act": 1.5795246362686157,
+          "female_mean_act": 1.115687608718872,
+          "neutral_mean_act": 0.5660816431045532,
+          "direction": "MALE"
+        },
+        {
+          "feature_idx": 2407,
+          "gender_diff": 0.46035316586494446,
+          "male_mean_act": 0.5295983552932739,
+          "female_mean_act": 0.06924518942832947,
+          "neutral_mean_act": 0.0,
+          "direction": "MALE"
+        },
+        {
+          "feature_idx": 17542,
+          "gender_diff": -0.40741777420043945,
+          "male_mean_act": 1.653350830078125,
+          "female_mean_act": 2.0607686042785645,
+          "neutral_mean_act": 0.5499486327171326,
+          "direction": "FEMALE"
+        },
+        {
+          "feature_idx": 21834,
+          "gender_diff": 0.39747464656829834,
+          "male_mean_act": 1.6429615020751953,
+          "female_mean_act": 1.245486855506897,
+          "neutral_mean_act": 0.18935948610305786,
+          "direction": "MALE"
+        },
+        {
+          "feature_idx": 17161,
+          "gender_diff": 0.38213294744491577,
+          "male_mean_act": 1.0023670196533203,
+          "female_mean_act": 0.6202340722084045,
+          "neutral_mean_act": 1.1040713787078857,
+          "direction": "MALE"
+        },
+        {
+          "feature_idx": 6107,
+          "gender_diff": -0.3606250584125519,
+          "male_mean_act": 0.03216014429926872,
+          "female_mean_act": 0.3927851915359497,
+          "neutral_mean_act": 0.18466021120548248,
+          "direction": "FEMALE"
+        },
+        {
+          "feature_idx": 20032,
+          "gender_diff": -0.3194107711315155,
+          "male_mean_act": 0.09357423335313797,
+          "female_mean_act": 0.4129849970340729,
+          "neutral_mean_act": 0.6821340322494507,
+          "direction": "FEMALE"
+        },
+        {
+          "feature_idx": 8163,
+          "gender_diff": 0.3067365884780884,
+          "male_mean_act": 1.3608150482177734,
+          "female_mean_act": 1.054078459739685,
+          "neutral_mean_act": 1.4286025762557983,
+          "direction": "MALE"
+        },
+        {
+          "feature_idx": 23612,
+          "gender_diff": -0.2882096767425537,
+          "male_mean_act": 2.940338373184204,
+          "female_mean_act": 3.228548049926758,
+          "neutral_mean_act": 3.4329142570495605,
+          "direction": "FEMALE"
+        }
+      ],
+      "n_sae_features": 24576,
+      "hook_point": "blocks.5.hook_resid_pre",
+      "n_active_male": 63,
+      "n_active_female": 61,
+      "n_active_neutral": 77,
+      "cumulative_clamping": [
+        {
+          "n_features": 1,
+          "bias": 0.10451180666374664,
+          "bias_reduction": 0.008468784236659602,
+          "bias_reduction_pct": 7.495786815387554,
+          "ppl": 42.59665196166714,
+          "ppl_increase_pct": -0.0013917260211049917
+        },
+        {
+          "n_features": 2,
+          "bias": 0.10229258914478123,
+          "bias_reduction": 0.01068800175562501,
+          "bias_reduction_pct": 9.460033507035392,
+          "ppl": 42.59665196166714,
+          "ppl_increase_pct": -0.0013917260211049917
+        },
+        {
+          "n_features": 3,
+          "bias": 0.10102773457765579,
+          "bias_reduction": 0.01195285632275045,
+          "bias_reduction_pct": 10.579566125023224,
+          "ppl": 42.59665196166714,
+          "ppl_increase_pct": -0.0013917260211049917
+        },
+        {
+          "n_features": 5,
+          "bias": 0.10016073728911579,
+          "bias_reduction": 0.012819853611290455,
+          "bias_reduction_pct": 11.346952170387665,
+          "ppl": 42.60059573238803,
+          "ppl_increase_pct": 0.00786655051657504
+        },
+        {
+          "n_features": 7,
+          "bias": 0.09871659683994949,
+          "bias_reduction": 0.014263994060456753,
+          "bias_reduction_pct": 12.62517211742204,
+          "ppl": 42.60059573238803,
+          "ppl_increase_pct": 0.00786655051657504
+        }
+      ]
+    },
+    "10": {
+      "top_features": [
+        {
+          "feature_idx": 11154,
+          "gender_diff": -7.246547698974609,
+          "male_mean_act": 8.728711128234863,
+          "female_mean_act": 15.975258827209473,
+          "neutral_mean_act": 18.665660858154297,
+          "direction": "FEMALE"
+        },
+        {
+          "feature_idx": 23440,
+          "gender_diff": -3.4384114742279053,
+          "male_mean_act": 0.11205126345157623,
+          "female_mean_act": 3.5504627227783203,
+          "neutral_mean_act": 0.44733554124832153,
+          "direction": "FEMALE"
+        },
+        {
+          "feature_idx": 13794,
+          "gender_diff": 2.6761093139648438,
+          "male_mean_act": 33.27794647216797,
+          "female_mean_act": 30.601837158203125,
+          "neutral_mean_act": 24.553709030151367,
+          "direction": "MALE"
+        },
+        {
+          "feature_idx": 16730,
+          "gender_diff": -2.585622787475586,
+          "male_mean_act": 9.202790260314941,
+          "female_mean_act": 11.788413047790527,
+          "neutral_mean_act": 9.178911209106445,
+          "direction": "FEMALE"
+        },
+        {
+          "feature_idx": 1988,
+          "gender_diff": 2.3136541843414307,
+          "male_mean_act": 2.3136541843414307,
+          "female_mean_act": 0.0,
+          "neutral_mean_act": 0.0,
+          "direction": "MALE"
+        },
+        {
+          "feature_idx": 3725,
+          "gender_diff": -2.01541805267334,
+          "male_mean_act": 0.09719093143939972,
+          "female_mean_act": 2.1126089096069336,
+          "neutral_mean_act": 0.5659818053245544,
+          "direction": "FEMALE"
+        },
+        {
+          "feature_idx": 11488,
+          "gender_diff": 1.9495329856872559,
+          "male_mean_act": 2.669731855392456,
+          "female_mean_act": 0.7201988697052002,
+          "neutral_mean_act": 1.446287751197815,
+          "direction": "MALE"
+        },
+        {
+          "feature_idx": 295,
+          "gender_diff": 1.9371923208236694,
+          "male_mean_act": 2.426522731781006,
+          "female_mean_act": 0.48933038115501404,
+          "neutral_mean_act": 0.0,
+          "direction": "MALE"
+        },
+        {
+          "feature_idx": 20922,
+          "gender_diff": 1.8669503927230835,
+          "male_mean_act": 1.879968285560608,
+          "female_mean_act": 0.013017889112234116,
+          "neutral_mean_act": 0.46950194239616394,
+          "direction": "MALE"
+        },
+        {
+          "feature_idx": 12974,
+          "gender_diff": -1.7575006484985352,
+          "male_mean_act": 0.0,
+          "female_mean_act": 1.7575006484985352,
+          "neutral_mean_act": 3.357616901397705,
+          "direction": "FEMALE"
+        },
+        {
+          "feature_idx": 6031,
+          "gender_diff": 1.5272667407989502,
+          "male_mean_act": 4.185952663421631,
+          "female_mean_act": 2.6586859226226807,
+          "neutral_mean_act": 2.744300603866577,
+          "direction": "MALE"
+        },
+        {
+          "feature_idx": 23529,
+          "gender_diff": -1.51600980758667,
+          "male_mean_act": 0.0,
+          "female_mean_act": 1.51600980758667,
+          "neutral_mean_act": 0.07069572061300278,
+          "direction": "FEMALE"
+        },
+        {
+          "feature_idx": 4764,
+          "gender_diff": 1.504733920097351,
+          "male_mean_act": 3.245152473449707,
+          "female_mean_act": 1.740418553352356,
+          "neutral_mean_act": 0.0,
+          "direction": "MALE"
+        },
+        {
+          "feature_idx": 10737,
+          "gender_diff": 1.2036688327789307,
+          "male_mean_act": 2.387094497680664,
+          "female_mean_act": 1.1834256649017334,
+          "neutral_mean_act": 0.341310054063797,
+          "direction": "MALE"
+        },
+        {
+          "feature_idx": 5892,
+          "gender_diff": 1.1751036643981934,
+          "male_mean_act": 1.6094099283218384,
+          "female_mean_act": 0.434306263923645,
+          "neutral_mean_act": 0.0,
+          "direction": "MALE"
+        },
+        {
+          "feature_idx": 18588,
+          "gender_diff": 1.1705875396728516,
+          "male_mean_act": 1.1705875396728516,
+          "female_mean_act": 0.0,
+          "neutral_mean_act": 0.00826825201511383,
+          "direction": "MALE"
+        },
+        {
+          "feature_idx": 10862,
+          "gender_diff": 1.1687339544296265,
+          "male_mean_act": 1.1687339544296265,
+          "female_mean_act": 0.0,
+          "neutral_mean_act": 0.03216322883963585,
+          "direction": "MALE"
+        },
+        {
+          "feature_idx": 22756,
+          "gender_diff": 1.1621308326721191,
+          "male_mean_act": 1.1621308326721191,
+          "female_mean_act": 0.0,
+          "neutral_mean_act": 0.0,
+          "direction": "MALE"
+        },
+        {
+          "feature_idx": 3289,
+          "gender_diff": -1.107710599899292,
+          "male_mean_act": 0.0,
+          "female_mean_act": 1.107710599899292,
+          "neutral_mean_act": 0.0,
+          "direction": "FEMALE"
+        },
+        {
+          "feature_idx": 23152,
+          "gender_diff": -1.0195683240890503,
+          "male_mean_act": 0.0,
+          "female_mean_act": 1.0195683240890503,
+          "neutral_mean_act": 0.09492035210132599,
+          "direction": "FEMALE"
+        }
+      ],
+      "n_sae_features": 24576,
+      "hook_point": "blocks.10.hook_resid_pre",
+      "n_active_male": 103,
+      "n_active_female": 107,
+      "n_active_neutral": 114,
+      "cumulative_clamping": [
+        {
+          "n_features": 1,
+          "bias": 0.09370501176454127,
+          "bias_reduction": 0.019275579135864973,
+          "bias_reduction_pct": 17.060965058021896,
+          "ppl": 42.57907773790219,
+          "ppl_increase_pct": -0.04264844074066258
+        },
+        {
+          "n_features": 2,
+          "bias": 0.08230916317552328,
+          "bias_reduction": 0.03067142772488296,
+          "bias_reduction_pct": 27.147519304373436,
+          "ppl": 42.57907773790219,
+          "ppl_increase_pct": -0.04264844074066258
+        },
+        {
+          "n_features": 3,
+          "bias": 0.07718958674619596,
+          "bias_reduction": 0.035791004154210285,
+          "bias_reduction_pct": 31.67889623250465,
+          "ppl": 42.57907773790219,
+          "ppl_increase_pct": -0.04264844074066258
+        },
+        {
+          "n_features": 5,
+          "bias": 0.0703191792126745,
+          "bias_reduction": 0.04266141168773174,
+          "bias_reduction_pct": 37.75994739250239,
+          "ppl": 42.57663695123018,
+          "ppl_increase_pct": -0.04837835750769933
+        },
+        {
+          "n_features": 8,
+          "bias": 0.06113578057071815,
+          "bias_reduction": 0.051844810329688094,
+          "bias_reduction_pct": 45.888244977750134,
+          "ppl": 42.57327808639317,
+          "ppl_increase_pct": -0.05626352673141666
+        },
+        {
+          "n_features": 10,
+          "bias": 0.05965210765134543,
+          "bias_reduction": 0.05332848324906081,
+          "bias_reduction_pct": 47.201455421728596,
+          "ppl": 42.57327808639317,
+          "ppl_increase_pct": -0.05626352673141666
+        },
+        {
+          "n_features": 10,
+          "bias": 0.05965210765134543,
+          "bias_reduction": 0.05332848324906081,
+          "bias_reduction_pct": 47.201455421728596,
+          "ppl": 42.57327808639317,
+          "ppl_increase_pct": -0.05626352673141666
+        }
+      ]
+    }
+  },
+  "clamping_results": {
+    "0": [
+      {
+        "feature_idx": 14924,
+        "direction": "MALE",
+        "bias_original": 0.11298059090040624,
+        "bias_clamped": 0.11087358479077618,
+        "bias_reduction": 0.0021070061096300635,
+        "ppl_original": 42.59724479860728,
+        "ppl_clamped": 42.521315504684544,
+        "ppl_increase_pct": -0.1782493076294365
+      },
+      {
+        "feature_idx": 15033,
+        "direction": "MALE",
+        "bias_original": 0.11298059090040624,
+        "bias_clamped": 0.10902485918874542,
+        "bias_reduction": 0.003955731711660818,
+        "ppl_original": 42.59724479860728,
+        "ppl_clamped": 42.54346238181916,
+        "ppl_increase_pct": -0.12625797053868454
+      },
+      {
+        "feature_idx": 15603,
+        "direction": "FEMALE",
+        "bias_original": 0.11298059090040624,
+        "bias_clamped": 0.1127747231318305,
+        "bias_reduction": 0.00020586776857574318,
+        "ppl_original": 42.59724479860728,
+        "ppl_clamped": 42.65946350750118,
+        "ppl_increase_pct": 0.14606275403036328
+      },
+      {
+        "feature_idx": 7550,
+        "direction": "FEMALE",
+        "bias_original": 0.11298059090040624,
+        "bias_clamped": 0.11229296416665117,
+        "bias_reduction": 0.0006876267337550673,
+        "ppl_original": 42.59724479860728,
+        "ppl_clamped": 42.6211312028003,
+        "ppl_increase_pct": 0.05607499805668727
+      },
+      {
+        "feature_idx": 24182,
+        "direction": "FEMALE",
+        "bias_original": 0.11298059090040624,
+        "bias_clamped": 0.11151343941067655,
+        "bias_reduction": 0.0014671514897296872,
+        "ppl_original": 42.59724479860728,
+        "ppl_clamped": 42.71142392252429,
+        "ppl_increase_pct": 0.2680434484831866
+      },
+      {
+        "feature_idx": 19064,
+        "direction": "FEMALE",
+        "bias_original": 0.11298059090040624,
+        "bias_clamped": 0.11288152968821426,
+        "bias_reduction": 9.906121219198372e-05,
+        "ppl_original": 42.59724479860728,
+        "ppl_clamped": 42.63488361159971,
+        "ppl_increase_pct": 0.08835973587114315
+      },
+      {
+        "feature_idx": 7034,
+        "direction": "FEMALE",
+        "bias_original": 0.11298059090040624,
+        "bias_clamped": 0.11127367662265897,
+        "bias_reduction": 0.0017069142777472734,
+        "ppl_original": 42.59724479860728,
+        "ppl_clamped": 42.55344976559627,
+        "ppl_increase_pct": -0.10281189128091281
+      },
+      {
+        "feature_idx": 14084,
+        "direction": "MALE",
+        "bias_original": 0.11298059090040624,
+        "bias_clamped": 0.11371356528252363,
+        "bias_reduction": -0.0007329743821173906,
+        "ppl_original": 42.59724479860728,
+        "ppl_clamped": 42.59724479860728,
+        "ppl_increase_pct": 0.0
+      },
+      {
+        "feature_idx": 16482,
+        "direction": "MALE",
+        "bias_original": 0.11298059090040624,
+        "bias_clamped": 0.11141140782274306,
+        "bias_reduction": 0.0015691830776631832,
+        "ppl_original": 42.59724479860728,
+        "ppl_clamped": 42.44606602522639,
+        "ppl_increase_pct": -0.3549027034392311
+      },
+      {
+        "feature_idx": 20998,
+        "direction": "FEMALE",
+        "bias_original": 0.11298059090040624,
+        "bias_clamped": 0.10900418553501368,
+        "bias_reduction": 0.003976405365392566,
+        "ppl_original": 42.59724479860728,
+        "ppl_clamped": 42.68104180713726,
+        "ppl_increase_pct": 0.1967193158293753
+      },
+      {
+        "feature_idx": 23406,
+        "direction": "FEMALE",
+        "bias_original": 0.11298059090040624,
+        "bias_clamped": 0.01778234969424375,
+        "bias_reduction": 0.09519824120616249,
+        "ppl_original": 42.59724479860728,
+        "ppl_clamped": 42.59724479860728,
+        "ppl_increase_pct": 0.0
+      },
+      {
+        "feature_idx": 0,
+        "direction": "FEMALE",
+        "bias_original": 0.11298059090040624,
+        "bias_clamped": 0.11298059090040624,
+        "bias_reduction": 0.0,
+        "ppl_original": 42.59724479860728,
+        "ppl_clamped": 42.59724479860728,
+        "ppl_increase_pct": 0.0
+      },
+      {
+        "feature_idx": 1,
+        "direction": "FEMALE",
+        "bias_original": 0.11298059090040624,
+        "bias_clamped": 0.11298059090040624,
+        "bias_reduction": 0.0,
+        "ppl_original": 42.59724479860728,
+        "ppl_clamped": 42.59724479860728,
+        "ppl_increase_pct": 0.0
+      },
+      {
+        "feature_idx": 2,
+        "direction": "FEMALE",
+        "bias_original": 0.11298059090040624,
+        "bias_clamped": 0.11298059090040624,
+        "bias_reduction": 0.0,
+        "ppl_original": 42.59724479860728,
+        "ppl_clamped": 42.59724479860728,
+        "ppl_increase_pct": 0.0
+      },
+      {
+        "feature_idx": 3,
+        "direction": "FEMALE",
+        "bias_original": 0.11298059090040624,
+        "bias_clamped": 0.11298059090040624,
+        "bias_reduction": 0.0,
+        "ppl_original": 42.59724479860728,
+        "ppl_clamped": 42.59724479860728,
+        "ppl_increase_pct": 0.0
+      }
+    ],
+    "5": [
+      {
+        "feature_idx": 8578,
+        "direction": "FEMALE",
+        "bias_original": 0.11298059090040624,
+        "bias_clamped": 0.10451180666374664,
+        "bias_reduction": 0.008468784236659602,
+        "ppl_original": 42.59724479860728,
+        "ppl_clamped": 42.59665196166714,
+        "ppl_increase_pct": -0.0013917260211049917
+      },
+      {
+        "feature_idx": 23622,
+        "direction": "FEMALE",
+        "bias_original": 0.11298059090040624,
+        "bias_clamped": 0.11075497690277795,
+        "bias_reduction": 0.002225613997628287,
+        "ppl_original": 42.59724479860728,
+        "ppl_clamped": 42.59724479860728,
+        "ppl_increase_pct": 0.0
+      },
+      {
+        "feature_idx": 12292,
+        "direction": "FEMALE",
+        "bias_original": 0.11298059090040624,
+        "bias_clamped": 0.11262980949444075,
+        "bias_reduction": 0.0003507814059654918,
+        "ppl_original": 42.59724479860728,
+        "ppl_clamped": 42.59724479860728,
+        "ppl_increase_pct": 0.0
+      },
+      {
+        "feature_idx": 17711,
+        "direction": "MALE",
+        "bias_original": 0.11298059090040624,
+        "bias_clamped": 0.11159005124742787,
+        "bias_reduction": 0.001390539652978376,
+        "ppl_original": 42.59724479860728,
+        "ppl_clamped": 42.59724479860728,
+        "ppl_increase_pct": 0.0
+      },
+      {
+        "feature_idx": 19897,
+        "direction": "MALE",
+        "bias_original": 0.11298059090040624,
+        "bias_clamped": 0.1137219116402169,
+        "bias_reduction": -0.0007413207398106608,
+        "ppl_original": 42.59724479860728,
+        "ppl_clamped": 42.60038947225621,
+        "ppl_increase_pct": 0.0073823404865746385
+      },
+      {
+        "feature_idx": 15957,
+        "direction": "MALE",
+        "bias_original": 0.11298059090040624,
+        "bias_clamped": 0.11426584554525714,
+        "bias_reduction": -0.0012852546448508945,
+        "ppl_original": 42.59724479860728,
+        "ppl_clamped": 42.59724479860728,
+        "ppl_increase_pct": 0.0
+      },
+      {
+        "feature_idx": 1759,
+        "direction": "MALE",
+        "bias_original": 0.11298059090040624,
+        "bias_clamped": 0.1261465740390122,
+        "bias_reduction": -0.013165983138605952,
+        "ppl_original": 42.59724479860728,
+        "ppl_clamped": 42.759581092121486,
+        "ppl_increase_pct": 0.38109575931895934
+      },
+      {
+        "feature_idx": 2706,
+        "direction": "FEMALE",
+        "bias_original": 0.11298059090040624,
+        "bias_clamped": 0.11255356421073277,
+        "bias_reduction": 0.00042702668967346813,
+        "ppl_original": 42.59724479860728,
+        "ppl_clamped": 42.59724479860728,
+        "ppl_increase_pct": 0.0
+      },
+      {
+        "feature_idx": 18777,
+        "direction": "FEMALE",
+        "bias_original": 0.11298059090040624,
+        "bias_clamped": 0.1148678637885799,
+        "bias_reduction": -0.001887272888173655,
+        "ppl_original": 42.59724479860728,
+        "ppl_clamped": 42.59724479860728,
+        "ppl_increase_pct": 0.0
+      },
+      {
+        "feature_idx": 6154,
+        "direction": "MALE",
+        "bias_original": 0.11298059090040624,
+        "bias_clamped": 0.11717605012624215,
+        "bias_reduction": -0.004195459225835904,
+        "ppl_original": 42.59724479860728,
+        "ppl_clamped": 43.37496596798468,
+        "ppl_increase_pct": 1.825754630503305
+      },
+      {
+        "feature_idx": 7769,
+        "direction": "FEMALE",
+        "bias_original": 0.11298059090040624,
+        "bias_clamped": 0.11252663455282648,
+        "bias_reduction": 0.000453956347579762,
+        "ppl_original": 42.59724479860728,
+        "ppl_clamped": 42.59724479860728,
+        "ppl_increase_pct": 0.0
+      },
+      {
+        "feature_idx": 23924,
+        "direction": "MALE",
+        "bias_original": 0.11298059090040624,
+        "bias_clamped": 0.11245588593495388,
+        "bias_reduction": 0.0005247049654523578,
+        "ppl_original": 42.59724479860728,
+        "ppl_clamped": 42.60118862421542,
+        "ppl_increase_pct": 0.009258405389328386
+      },
+      {
+        "feature_idx": 2407,
+        "direction": "MALE",
+        "bias_original": 0.11298059090040624,
+        "bias_clamped": 0.1137167343404144,
+        "bias_reduction": -0.0007361434400081635,
+        "ppl_original": 42.59724479860728,
+        "ppl_clamped": 42.59724479860728,
+        "ppl_increase_pct": 0.0
+      },
+      {
+        "feature_idx": 17542,
+        "direction": "FEMALE",
+        "bias_original": 0.11298059090040624,
+        "bias_clamped": 0.11444917352249225,
+        "bias_reduction": -0.0014685826220860038,
+        "ppl_original": 42.59724479860728,
+        "ppl_clamped": 42.597410865855956,
+        "ppl_increase_pct": 0.00038985443650871445
+      },
+      {
+        "feature_idx": 21834,
+        "direction": "MALE",
+        "bias_original": 0.11298059090040624,
+        "bias_clamped": 0.11335134180262685,
+        "bias_reduction": -0.0003707509022206068,
+        "ppl_original": 42.59724479860728,
+        "ppl_clamped": 42.59724479860728,
+        "ppl_increase_pct": 0.0
+      }
+    ],
+    "10": [
+      {
+        "feature_idx": 11154,
+        "direction": "FEMALE",
+        "bias_original": 0.11298059090040624,
+        "bias_clamped": 0.09662245772778988,
+        "bias_reduction": 0.016358133172616363,
+        "ppl_original": 42.59724479860728,
+        "ppl_clamped": 42.59724479860728,
+        "ppl_increase_pct": 0.0
+      },
+      {
+        "feature_idx": 23440,
+        "direction": "FEMALE",
+        "bias_original": 0.11298059090040624,
+        "bias_clamped": 0.09370501176454127,
+        "bias_reduction": 0.019275579135864973,
+        "ppl_original": 42.59724479860728,
+        "ppl_clamped": 42.57907773790219,
+        "ppl_increase_pct": -0.04264844074066258
+      },
+      {
+        "feature_idx": 13794,
+        "direction": "MALE",
+        "bias_original": 0.11298059090040624,
+        "bias_clamped": 0.13148382344904044,
+        "bias_reduction": -0.018503232548634202,
+        "ppl_original": 42.59724479860728,
+        "ppl_clamped": 42.59724479860728,
+        "ppl_increase_pct": 0.0
+      },
+      {
+        "feature_idx": 16730,
+        "direction": "FEMALE",
+        "bias_original": 0.11298059090040624,
+        "bias_clamped": 0.11997810658067465,
+        "bias_reduction": -0.006997515680268407,
+        "ppl_original": 42.59724479860728,
+        "ppl_clamped": 42.59724479860728,
+        "ppl_increase_pct": 0.0
+      },
+      {
+        "feature_idx": 1988,
+        "direction": "MALE",
+        "bias_original": 0.11298059090040624,
+        "bias_clamped": 0.11408136334891121,
+        "bias_reduction": -0.0011007724485049691,
+        "ppl_original": 42.59724479860728,
+        "ppl_clamped": 42.59724479860728,
+        "ppl_increase_pct": 0.0
+      },
+      {
+        "feature_idx": 3725,
+        "direction": "FEMALE",
+        "bias_original": 0.11298059090040624,
+        "bias_clamped": 0.111188793166851,
+        "bias_reduction": 0.001791797733555242,
+        "ppl_original": 42.59724479860728,
+        "ppl_clamped": 42.59724479860728,
+        "ppl_increase_pct": 0.0
+      },
+      {
+        "feature_idx": 11488,
+        "direction": "MALE",
+        "bias_original": 0.11298059090040624,
+        "bias_clamped": 0.11104288518739243,
+        "bias_reduction": 0.0019377057130138126,
+        "ppl_original": 42.59724479860728,
+        "ppl_clamped": 42.59724479860728,
+        "ppl_increase_pct": 0.0
+      },
+      {
+        "feature_idx": 295,
+        "direction": "MALE",
+        "bias_original": 0.11298059090040624,
+        "bias_clamped": 0.11100269784219563,
+        "bias_reduction": 0.0019778930582106113,
+        "ppl_original": 42.59724479860728,
+        "ppl_clamped": 42.59388430802011,
+        "ppl_increase_pct": -0.007888985785483662
+      },
+      {
+        "feature_idx": 20922,
+        "direction": "MALE",
+        "bias_original": 0.11298059090040624,
+        "bias_clamped": 0.11286513794523974,
+        "bias_reduction": 0.00011545295516650345,
+        "ppl_original": 42.59724479860728,
+        "ppl_clamped": 42.59724479860728,
+        "ppl_increase_pct": 0.0
+      },
+      {
+        "feature_idx": 12974,
+        "direction": "FEMALE",
+        "bias_original": 0.11298059090040624,
+        "bias_clamped": 0.10710122622549534,
+        "bias_reduction": 0.005879364674910903,
+        "ppl_original": 42.59724479860728,
+        "ppl_clamped": 42.59724479860728,
+        "ppl_increase_pct": 0.0
+      },
+      {
+        "feature_idx": 6031,
+        "direction": "MALE",
+        "bias_original": 0.11298059090040624,
+        "bias_clamped": 0.10920383043897648,
+        "bias_reduction": 0.0037767604614297595,
+        "ppl_original": 42.59724479860728,
+        "ppl_clamped": 42.592338964175994,
+        "ppl_increase_pct": -0.011516788126739135
+      },
+      {
+        "feature_idx": 23529,
+        "direction": "FEMALE",
+        "bias_original": 0.11298059090040624,
+        "bias_clamped": 0.10934957248779635,
+        "bias_reduction": 0.0036310184126098904,
+        "ppl_original": 42.59724479860728,
+        "ppl_clamped": 42.599739446858585,
+        "ppl_increase_pct": 0.0058563605770785895
+      },
+      {
+        "feature_idx": 4764,
+        "direction": "MALE",
+        "bias_original": 0.11298059090040624,
+        "bias_clamped": 0.10956732742488384,
+        "bias_reduction": 0.003413263475522399,
+        "ppl_original": 42.59724479860728,
+        "ppl_clamped": 42.59724479860728,
+        "ppl_increase_pct": 0.0
+      },
+      {
+        "feature_idx": 10737,
+        "direction": "MALE",
+        "bias_original": 0.11298059090040624,
+        "bias_clamped": 0.11463557459258784,
+        "bias_reduction": -0.0016549836921816025,
+        "ppl_original": 42.59724479860728,
+        "ppl_clamped": 42.5965939283739,
+        "ppl_increase_pct": -0.0015279632202884472
+      },
+      {
+        "feature_idx": 5892,
+        "direction": "MALE",
+        "bias_original": 0.11298059090040624,
+        "bias_clamped": 0.11438013853815694,
+        "bias_reduction": -0.0013995476377507005,
+        "ppl_original": 42.59724479860728,
+        "ppl_clamped": 42.59724479860728,
+        "ppl_increase_pct": 0.0
+      }
+    ]
+  },
+  "baselines": {
+    "bias": 0.11298059090040624,
+    "ppl": 42.59724479860728
+  }
+}

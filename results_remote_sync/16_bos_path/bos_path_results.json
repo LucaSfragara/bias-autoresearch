@@ -1,0 +1,204 @@
+{
+  "layer_gender_projection": {
+    "total": [
+      2.848181962966919,
+      3.0095605850219727,
+      4.497310638427734,
+      0.5342795848846436,
+      0.25220787525177,
+      -0.1124667227268219,
+      -0.03481253981590271,
+      0.0058480799198150635,
+      -0.030427634716033936,
+      0.1901078224182129,
+      -0.08632099628448486,
+      -9.740382194519043
+    ],
+    "attn": [
+      -0.25588756799697876,
+      -0.10021856427192688,
+      -0.010608993470668793,
+      -0.14670997858047485,
+      -0.08076493442058563,
+      -0.12207187712192535,
+      -0.027939576655626297,
+      0.01964348554611206,
+      0.043245621025562286,
+      0.24549151957035065,
+      0.10067746043205261,
+      -8.078516006469727
+    ],
+    "mlp": [
+      3.104069709777832,
+      3.109778881072998,
+      4.5079193115234375,
+      0.680989682674408,
+      0.3329726755619049,
+      0.009605158120393753,
+      -0.006872981786727905,
+      -0.013795435428619385,
+      -0.07367325574159622,
+      -0.055383771657943726,
+      -0.18699848651885986,
+      -1.661864995956421
+    ]
+  },
+  "embed_gender_projection": -0.055982209742069244,
+  "bos_patching_by_layer": {
+    "0": {
+      "mean_bias_shift": 0.0,
+      "std": 0.0
+    },
+    "1": {
+      "mean_bias_shift": 0.0,
+      "std": 0.0
+    },
+    "2": {
+      "mean_bias_shift": 0.0,
+      "std": 0.0
+    },
+    "3": {
+      "mean_bias_shift": 0.0,
+      "std": 0.0
+    },
+    "4": {
+      "mean_bias_shift": 0.0,
+      "std": 0.0
+    },
+    "5": {
+      "mean_bias_shift": 0.0,
+      "std": 0.0
+    },
+    "6": {
+      "mean_bias_shift": 0.0,
+      "std": 0.0
+    },
+    "7": {
+      "mean_bias_shift": 0.0,
+      "std": 0.0
+    },
+    "8": {
+      "mean_bias_shift": 0.0,
+      "std": 0.0
+    },
+    "9": {
+      "mean_bias_shift": 0.0,
+      "std": 0.0
+    },
+    "10": {
+      "mean_bias_shift": 0.0,
+      "std": 0.0
+    },
+    "11": {
+      "mean_bias_shift": 0.0,
+      "std": 0.0
+    }
+  },
+  "head_patching_top15": {
+    "L0H0": {
+      "layer": 0,
+      "head": 0,
+      "mean_bias_shift": 0.0,
+      "std": 0.0
+    },
+    "L0H1": {
+      "layer": 0,
+      "head": 1,
+      "mean_bias_shift": 0.0,
+      "std": 0.0
+    },
+    "L0H2": {
+      "layer": 0,
+      "head": 2,
+      "mean_bias_shift": 0.0,
+      "std": 0.0
+    },
+    "L0H3": {
+      "layer": 0,
+      "head": 3,
+      "mean_bias_shift": 0.0,
+      "std": 0.0
+    },
+    "L0H4": {
+      "layer": 0,
+      "head": 4,
+      "mean_bias_shift": 0.0,
+      "std": 0.0
+    },
+    "L0H5": {
+      "layer": 0,
+      "head": 5,
+      "mean_bias_shift": 0.0,
+      "std": 0.0
+    },
+    "L0H6": {
+      "layer": 0,
+      "head": 6,
+      "mean_bias_shift": 0.0,
+      "std": 0.0
+    },
+    "L0H7": {
+      "layer": 0,
+      "head": 7,
+      "mean_bias_shift": 0.0,
+      "std": 0.0
+    },
+    "L0H8": {
+      "layer": 0,
+      "head": 8,
+      "mean_bias_shift": 0.0,
+      "std": 0.0
+    },
+    "L0H9": {
+      "layer": 0,
+      "head": 9,
+      "mean_bias_shift": 0.0,
+      "std": 0.0
+    },
+    "L0H10": {
+      "layer": 0,
+      "head": 10,
+      "mean_bias_shift": 0.0,
+      "std": 0.0
+    },
+    "L0H11": {
+      "layer": 0,
+      "head": 11,
+      "mean_bias_shift": 0.0,
+      "std": 0.0
+    },
+    "L1H0": {
+      "layer": 1,
+      "head": 0,
+      "mean_bias_shift": 0.0,
+      "std": 0.0
+    },
+    "L1H1": {
+      "layer": 1,
+      "head": 1,
+      "mean_bias_shift": 0.0,
+      "std": 0.0
+    },
+    "L1H2": {
+      "layer": 1,
+      "head": 2,
+      "mean_bias_shift": 0.0,
+      "std": 0.0
+    }
+  },
+  "bos_context_comparison": {
+    "male_mean": 11.10380744934082,
+    "female_mean": 11.10380744934082,
+    "neutral_mean": 11.10380744934082,
+    "male_female_separation": 0.0
+  },
+  "bos_bias_correlation": NaN,
+  "counterfactual": {
+    "baseline_bias": 0.124993556025438,
+    "zero_bos_attn_bias": 0.1632964481343515,
+    "zero_bos_reduction_pct": -30.64389343488901,
+    "full_ablation_bias": 0.07004361624829471,
+    "full_ablation_reduction_pct": 43.96221815303837,
+    "bos_fraction_of_total": -69.70506658288602
+  }
+}

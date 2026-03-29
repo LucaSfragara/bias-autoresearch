@@ -1,0 +1,489 @@
+{
+  "evaluation": {
+    "Baseline": {
+      "bias_mean": 0.16330266856287198,
+      "bias_ci_95": [
+        0.14956916936857148,
+        0.17711675105390554
+      ],
+      "bias_signed_mean": 0.0783206083826226,
+      "bias_signed_ci_95": [
+        0.059985961431605714,
+        0.09705657431149992
+      ],
+      "ppl_mean": 35.2044215296064,
+      "ppl_ci_95": [
+        29.784539241139257,
+        41.330484384677725
+      ],
+      "pronoun_mean": 1.0,
+      "pronoun_ci_95": [
+        1.0,
+        1.0
+      ],
+      "specificity": 0.0,
+      "n_bias_prompts": 500,
+      "n_ppl_sentences": 30,
+      "n_pronoun_tests": 40
+    },
+    "Head L10H9 ablation": {
+      "bias_mean": 0.11639684877968466,
+      "bias_ci_95": [
+        0.10530281236527476,
+        0.1276294247057655
+      ],
+      "bias_signed_mean": 0.0820627085858905,
+      "bias_signed_ci_95": [
+        0.06875440661015472,
+        0.09515522784690819
+      ],
+      "ppl_mean": 34.89001159345189,
+      "ppl_ci_95": [
+        29.35346712502883,
+        40.821663319337794
+      ],
+      "pronoun_mean": 1.0,
+      "pronoun_ci_95": [
+        1.0,
+        1.0
+      ],
+      "specificity": 0.5135122836486017,
+      "n_bias_prompts": 500,
+      "n_ppl_sentences": 30,
+      "n_pronoun_tests": 40
+    },
+    "SAE L0 F23406 clamp (artifactual)": {
+      "bias_mean": 0.07760574669087895,
+      "bias_ci_95": [
+        0.0661984032786932,
+        0.0892610461869599
+      ],
+      "bias_signed_mean": 0.03449704606973342,
+      "bias_signed_ci_95": [
+        0.021390383440339535,
+        0.04786177253083471
+      ],
+      "ppl_mean": 36.756087166632824,
+      "ppl_ci_95": [
+        30.985727494991934,
+        43.222464858748076
+      ],
+      "pronoun_mean": 1.0,
+      "pronoun_ci_95": [
+        1.0,
+        1.0
+      ],
+      "specificity": 0.19476393695194355,
+      "n_bias_prompts": 500,
+      "n_ppl_sentences": 30,
+      "n_pronoun_tests": 40
+    },
+    "SAE L10 F23440+F16291 clamp (true gender)": {
+      "bias_mean": 0.14185123275015757,
+      "bias_ci_95": [
+        0.12928431089499318,
+        0.15475545768317342
+      ],
+      "bias_signed_mean": 0.08611036023749875,
+      "bias_signed_ci_95": [
+        0.07008302427036038,
+        0.10192777170253453
+      ],
+      "ppl_mean": 35.167300752126046,
+      "ppl_ci_95": [
+        29.533480023560926,
+        41.05539868731222
+      ],
+      "pronoun_mean": 1.0,
+      "pronoun_ci_95": [
+        1.0,
+        1.0
+      ],
+      "specificity": 0.6013882833063923,
+      "n_bias_prompts": 500,
+      "n_ppl_sentences": 30,
+      "n_pronoun_tests": 40
+    },
+    "SAE L10 top-5 both (true gender)": {
+      "bias_mean": 0.12024859658354217,
+      "bias_ci_95": [
+        0.10880090732628618,
+        0.13248367767094643
+      ],
+      "bias_signed_mean": 0.06489489556923764,
+      "bias_signed_ci_95": [
+        0.0500991809611256,
+        0.07991101039214545
+      ],
+      "ppl_mean": 35.1718474934023,
+      "ppl_ci_95": [
+        29.567476674848763,
+        41.07675643387417
+      ],
+      "pronoun_mean": 1.0,
+      "pronoun_ci_95": [
+        1.0,
+        1.0
+      ],
+      "specificity": 0.4189566897755816,
+      "n_bias_prompts": 500,
+      "n_ppl_sentences": 30,
+      "n_pronoun_tests": 40
+    },
+    "Combined: L10H9 + true gender features": {
+      "bias_mean": 0.10302950145602154,
+      "bias_ci_95": [
+        0.09345988174490631,
+        0.11286826474994005
+      ],
+      "bias_signed_mean": 0.09010594024690727,
+      "bias_signed_ci_95": [
+        0.07940494818550056,
+        0.10115233285067785
+      ],
+      "ppl_mean": 34.85984977108353,
+      "ppl_ci_95": [
+        29.33859744388736,
+        40.76031996874141
+      ],
+      "pronoun_mean": 1.0,
+      "pronoun_ci_95": [
+        1.0,
+        1.0
+      ],
+      "specificity": 0.5517932965458151,
+      "n_bias_prompts": 500,
+      "n_ppl_sentences": 30,
+      "n_pronoun_tests": 40
+    },
+    "SAE L10 balanced (male 0.5x, female 1.5x)": {
+      "bias_mean": 0.1609428854275975,
+      "bias_ci_95": [
+        0.14794230871737987,
+        0.1746297753642259
+      ],
+      "bias_signed_mean": 0.062208261563682754,
+      "bias_signed_ci_95": [
+        0.04357009849580614,
+        0.08123641082388366
+      ],
+      "ppl_mean": 35.223724134222685,
+      "ppl_ci_95": [
+        29.650529280956246,
+        41.27362627314361
+      ],
+      "pronoun_mean": 1.0,
+      "pronoun_ci_95": [
+        1.0,
+        1.0
+      ],
+      "specificity": 0.6671439858037748,
+      "n_bias_prompts": 500,
+      "n_ppl_sentences": 30,
+      "n_pronoun_tests": 40
+    }
+  },
+  "random_controls": {
+    "layer10_all_heads": [
+      {
+        "head": 0,
+        "bias_reduction_pct": 1.2137168991051035,
+        "ppl_change_pct": 1.2763650328695733
+      },
+      {
+        "head": 1,
+        "bias_reduction_pct": 1.5889694312632257,
+        "ppl_change_pct": -0.21984710015125028
+      },
+      {
+        "head": 2,
+        "bias_reduction_pct": 1.662721986181373,
+        "ppl_change_pct": 1.3355392879262962
+      },
+      {
+        "head": 3,
+        "bias_reduction_pct": -0.040269606022751626,
+        "ppl_change_pct": -0.044292677638075345
+      },
+      {
+        "head": 4,
+        "bias_reduction_pct": 0.9872144410601484,
+        "ppl_change_pct": -0.2853870860610643
+      },
+      {
+        "head": 5,
+        "bias_reduction_pct": -2.7409638853189833,
+        "ppl_change_pct": -0.8448818503447861
+      },
+      {
+        "head": 6,
+        "bias_reduction_pct": -0.2672175969927376,
+        "ppl_change_pct": -0.3747859664480844
+      },
+      {
+        "head": 7,
+        "bias_reduction_pct": 4.103593241498081,
+        "ppl_change_pct": 1.7640607006409146
+      },
+      {
+        "head": 8,
+        "bias_reduction_pct": -1.6427844875330329,
+        "ppl_change_pct": 0.14125692918795585
+      },
+      {
+        "head": 9,
+        "bias_reduction_pct": 35.19460419441701,
+        "ppl_change_pct": -0.8930978624094064
+      },
+      {
+        "head": 10,
+        "bias_reduction_pct": -0.14923473568228585,
+        "ppl_change_pct": 0.09667758398059262
+      },
+      {
+        "head": 11,
+        "bias_reduction_pct": -1.6576495300471321,
+        "ppl_change_pct": 1.4183759573480563
+      }
+    ],
+    "all_layers_random": {
+      "0": [
+        {
+          "head": 10,
+          "bias_reduction_pct": 7.719148101829202,
+          "ppl_change_pct": 10.884925679387774
+        },
+        {
+          "head": 1,
+          "bias_reduction_pct": -0.2122836929327999,
+          "ppl_change_pct": 1.2217998958358376
+        },
+        {
+          "head": 0,
+          "bias_reduction_pct": 0.49508002387130345,
+          "ppl_change_pct": -1.279073331408947
+        }
+      ],
+      "1": [
+        {
+          "head": 11,
+          "bias_reduction_pct": 9.992680796263887,
+          "ppl_change_pct": 4.36597654064687
+        },
+        {
+          "head": 4,
+          "bias_reduction_pct": -3.173157454357925,
+          "ppl_change_pct": 0.47667722980373517
+        },
+        {
+          "head": 3,
+          "bias_reduction_pct": 11.448232775133338,
+          "ppl_change_pct": 6.323794175195382
+        }
+      ],
+      "2": [
+        {
+          "head": 3,
+          "bias_reduction_pct": -6.245497756387137,
+          "ppl_change_pct": 2.07197596022641
+        },
+        {
+          "head": 2,
+          "bias_reduction_pct": -0.16388805128717296,
+          "ppl_change_pct": 0.510598146356563
+        },
+        {
+          "head": 1,
+          "bias_reduction_pct": -3.503655208730744,
+          "ppl_change_pct": 2.161704164027178
+        }
+      ],
+      "3": [
+        {
+          "head": 10,
+          "bias_reduction_pct": 3.3643222505820516,
+          "ppl_change_pct": 0.35293536624398963
+        },
+        {
+          "head": 8,
+          "bias_reduction_pct": -0.2065256977367998,
+          "ppl_change_pct": 0.056433631057792505
+        },
+        {
+          "head": 1,
+          "bias_reduction_pct": 5.657820571200647,
+          "ppl_change_pct": 1.1531340526779967
+        }
+      ],
+      "4": [
+        {
+          "head": 9,
+          "bias_reduction_pct": 0.07525366646681632,
+          "ppl_change_pct": -0.5569891657045364
+        },
+        {
+          "head": 6,
+          "bias_reduction_pct": 0.15062963402393204,
+          "ppl_change_pct": 1.14508568220178
+        },
+        {
+          "head": 0,
+          "bias_reduction_pct": 0.16881616761366758,
+          "ppl_change_pct": 0.3874090358893242
+        }
+      ],
+      "5": [
+        {
+          "head": 0,
+          "bias_reduction_pct": -1.5414128530380071,
+          "ppl_change_pct": -0.5869579783103669
+        },
+        {
+          "head": 1,
+          "bias_reduction_pct": 5.651995666777985,
+          "ppl_change_pct": -0.4351955477143786
+        },
+        {
+          "head": 3,
+          "bias_reduction_pct": -0.9115910053483216,
+          "ppl_change_pct": 0.5169201596158999
+        }
+      ],
+      "6": [
+        {
+          "head": 3,
+          "bias_reduction_pct": -4.751970157001642,
+          "ppl_change_pct": 1.0489430124754417
+        },
+        {
+          "head": 8,
+          "bias_reduction_pct": -1.9174241474052796,
+          "ppl_change_pct": -0.5544565682607964
+        },
+        {
+          "head": 9,
+          "bias_reduction_pct": 1.2760645835557047,
+          "ppl_change_pct": 0.7098552869210879
+        }
+      ],
+      "7": [
+        {
+          "head": 0,
+          "bias_reduction_pct": 1.652872016954443,
+          "ppl_change_pct": 0.3416904024001212
+        },
+        {
+          "head": 8,
+          "bias_reduction_pct": 4.466673788266412,
+          "ppl_change_pct": 0.8885534959189072
+        },
+        {
+          "head": 3,
+          "bias_reduction_pct": -8.076733576328788,
+          "ppl_change_pct": -2.0776257418144986
+        }
+      ],
+      "8": [
+        {
+          "head": 11,
+          "bias_reduction_pct": 5.406381401867918,
+          "ppl_change_pct": 0.8237827515705988
+        },
+        {
+          "head": 10,
+          "bias_reduction_pct": -0.2407475761044893,
+          "ppl_change_pct": 0.46240372859431034
+        },
+        {
+          "head": 8,
+          "bias_reduction_pct": -2.77691716881593,
+          "ppl_change_pct": 2.6775596482253845
+        }
+      ],
+      "9": [
+        {
+          "head": 6,
+          "bias_reduction_pct": 0.3689174277201756,
+          "ppl_change_pct": 1.0399282350004737
+        },
+        {
+          "head": 3,
+          "bias_reduction_pct": -7.546576493295711,
+          "ppl_change_pct": 0.900210777480785
+        },
+        {
+          "head": 7,
+          "bias_reduction_pct": 13.511459168355856,
+          "ppl_change_pct": 1.0441643259406859
+        }
+      ],
+      "10": [
+        {
+          "head": 9,
+          "bias_reduction_pct": 35.19460419441701,
+          "ppl_change_pct": -0.8930978624094064
+        },
+        {
+          "head": 4,
+          "bias_reduction_pct": 0.9872144410601484,
+          "ppl_change_pct": -0.2853870860610643
+        },
+        {
+          "head": 0,
+          "bias_reduction_pct": 1.2137168991051035,
+          "ppl_change_pct": 1.2763650328695733
+        }
+      ],
+      "11": [
+        {
+          "head": 2,
+          "bias_reduction_pct": 2.7568266999036006,
+          "ppl_change_pct": 0.3817449330306761
+        },
+        {
+          "head": 6,
+          "bias_reduction_pct": 1.9721725349024455,
+          "ppl_change_pct": 1.5996328497844423
+        },
+        {
+          "head": 5,
+          "bias_reduction_pct": 1.1856411858385505,
+          "ppl_change_pct": -0.36940880119943326
+        }
+      ]
+    },
+    "l10h9_z_score": 19.094809387371992
+  },
+  "stereoset": {
+    "Baseline": {
+      "ss_score": 0.5909090909090909,
+      "stereo_count": 143,
+      "anti_count": 99,
+      "total": 242
+    },
+    "Head L10H9 ablation": {
+      "ss_score": 0.5950413223140496,
+      "stereo_count": 144,
+      "anti_count": 98,
+      "total": 242
+    },
+    "SAE L0 F23406 clamp (artifactual)": {
+      "ss_score": 0.5826446280991735,
+      "stereo_count": 141,
+      "anti_count": 101,
+      "total": 242
+    },
+    "SAE L10 F23440+F16291 clamp (true gender)": {
+      "ss_score": 0.5950413223140496,
+      "stereo_count": 144,
+      "anti_count": 98,
+      "total": 242
+    }
+  },
+  "config": {
+    "n_bias_prompts": 500,
+    "n_ppl_sentences": 30,
+    "n_pronoun_tests": 40,
+    "n_bootstrap": 10000
+  }
+}

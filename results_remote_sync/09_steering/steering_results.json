@@ -1,0 +1,556 @@
+{
+  "baselines": {
+    "bias": 0.07112665755557827,
+    "ppl": 34.5268528831209,
+    "pronoun": 1.0
+  },
+  "steering_vectors": {
+    "0": {
+      "norm": 2.154677152633667,
+      "he_logit_projection": 6.771089553833008,
+      "she_logit_projection": -4.613668918609619,
+      "he_she_gap": 11.384758472442627
+    },
+    "1": {
+      "norm": 2.406707763671875,
+      "he_logit_projection": 4.432415962219238,
+      "she_logit_projection": -6.8318634033203125,
+      "he_she_gap": 11.26427936553955
+    },
+    "2": {
+      "norm": 3.611470937728882,
+      "he_logit_projection": 7.7812089920043945,
+      "she_logit_projection": -7.122591018676758,
+      "he_she_gap": 14.903800010681152
+    },
+    "3": {
+      "norm": 5.093632698059082,
+      "he_logit_projection": 8.012140274047852,
+      "she_logit_projection": -9.339376449584961,
+      "he_she_gap": 17.351516723632812
+    },
+    "4": {
+      "norm": 8.88870620727539,
+      "he_logit_projection": 9.877889633178711,
+      "she_logit_projection": -11.96925163269043,
+      "he_she_gap": 21.84714126586914
+    },
+    "5": {
+      "norm": 8.433197021484375,
+      "he_logit_projection": 10.982362747192383,
+      "she_logit_projection": -10.303410530090332,
+      "he_she_gap": 21.285773277282715
+    },
+    "6": {
+      "norm": 11.096385955810547,
+      "he_logit_projection": 13.40420150756836,
+      "she_logit_projection": -13.96052360534668,
+      "he_she_gap": 27.36472511291504
+    },
+    "7": {
+      "norm": 15.30263614654541,
+      "he_logit_projection": 12.909088134765625,
+      "she_logit_projection": -15.756631851196289,
+      "he_she_gap": 28.665719985961914
+    },
+    "8": {
+      "norm": 17.259599685668945,
+      "he_logit_projection": 14.564828872680664,
+      "she_logit_projection": -17.487010955810547,
+      "he_she_gap": 32.05183982849121
+    },
+    "9": {
+      "norm": 21.462158203125,
+      "he_logit_projection": 16.918073654174805,
+      "she_logit_projection": -27.22093963623047,
+      "he_she_gap": 44.13901329040527
+    },
+    "10": {
+      "norm": 29.4805965423584,
+      "he_logit_projection": 23.93712043762207,
+      "she_logit_projection": -36.69439697265625,
+      "he_she_gap": 60.63151741027832
+    },
+    "11": {
+      "norm": 33.447723388671875,
+      "he_logit_projection": 31.56153106689453,
+      "she_logit_projection": -27.42810821533203,
+      "he_she_gap": 58.98963928222656
+    }
+  },
+  "best_steering_layer": 10,
+  "dose_response": {
+    "head_L10H9": [
+      {
+        "alpha": 0.0,
+        "bias": 0.03844462230335921,
+        "ppl": 34.2898738912289,
+        "pronoun": 1.0,
+        "bias_reduction_pct": 45.94906660232328,
+        "ppl_change_pct": -0.6863614030917182
+      },
+      {
+        "alpha": 0.1,
+        "bias": 0.04206367075094022,
+        "ppl": 34.30007278551396,
+        "pronoun": 1.0,
+        "bias_reduction_pct": 40.86089210916214,
+        "ppl_change_pct": -0.656822382203872
+      },
+      {
+        "alpha": 0.2,
+        "bias": 0.04567995486431755,
+        "ppl": 34.31368439294014,
+        "pronoun": 1.0,
+        "bias_reduction_pct": 35.77660411130202,
+        "ppl_change_pct": -0.6173991325023849
+      },
+      {
+        "alpha": 0.3,
+        "bias": 0.049471319891745226,
+        "ppl": 34.330484683593625,
+        "pronoun": 1.0,
+        "bias_reduction_pct": 30.446162392646663,
+        "ppl_change_pct": -0.5687405110220056
+      },
+      {
+        "alpha": 0.4,
+        "bias": 0.05308949644677341,
+        "ppl": 34.35038005796965,
+        "pronoun": 1.0,
+        "bias_reduction_pct": 25.359213730394476,
+        "ppl_change_pct": -0.511117609672218
+      },
+      {
+        "alpha": 0.5,
+        "bias": 0.05652066390030086,
+        "ppl": 34.37321526030207,
+        "pronoun": 1.0,
+        "bias_reduction_pct": 20.53518913617487,
+        "ppl_change_pct": -0.44498009517091885
+      },
+      {
+        "alpha": 0.6,
+        "bias": 0.05976769342087209,
+        "ppl": 34.39881680132072,
+        "pronoun": 1.0,
+        "bias_reduction_pct": 15.970051911732677,
+        "ppl_change_pct": -0.37083044386815595
+      },
+      {
+        "alpha": 0.7,
+        "bias": 0.0628396689251531,
+        "ppl": 34.42710328564946,
+        "pronoun": 1.0,
+        "bias_reduction_pct": 11.651030591378117,
+        "ppl_change_pct": -0.2889044008995341
+      },
+      {
+        "alpha": 0.8,
+        "bias": 0.0657477293512784,
+        "ppl": 34.457938903248724,
+        "pronoun": 1.0,
+        "bias_reduction_pct": 7.562464467132855,
+        "ppl_change_pct": -0.19959531239485828
+      },
+      {
+        "alpha": 0.9,
+        "bias": 0.06850534984259866,
+        "ppl": 34.4912460338336,
+        "pronoun": 1.0,
+        "bias_reduction_pct": 3.685408260512344,
+        "ppl_change_pct": -0.10312798970656264
+      },
+      {
+        "alpha": 1.0,
+        "bias": 0.07112665755557827,
+        "ppl": 34.5268528831209,
+        "pronoun": 1.0,
+        "bias_reduction_pct": 0.0,
+        "ppl_change_pct": 0.0
+      },
+      {
+        "alpha": 1.2,
+        "bias": 0.0764934832637664,
+        "ppl": 34.604793104015975,
+        "pronoun": 1.0,
+        "bias_reduction_pct": -7.545449051917692,
+        "ppl_change_pct": 0.22573798185115018
+      },
+      {
+        "alpha": 1.5,
+        "bias": 0.0838604588410817,
+        "ppl": 34.73714146238734,
+        "pronoun": 1.0,
+        "bias_reduction_pct": -17.90299407160143,
+        "ppl_change_pct": 0.6090580568646122
+      },
+      {
+        "alpha": 2.0,
+        "bias": 0.09498813410755247,
+        "ppl": 34.99545472191032,
+        "pronoun": 1.0,
+        "bias_reduction_pct": -33.547867103594555,
+        "ppl_change_pct": 1.3572098226725515
+      }
+    ],
+    "sae_L0_F23406": [
+      {
+        "alpha": 0.0,
+        "bias": 0.014007712831880782,
+        "ppl": 37.102100735687465,
+        "pronoun": 1.0,
+        "bias_reduction_pct": 80.305959378261,
+        "ppl_change_pct": 7.458681106222456
+      },
+      {
+        "alpha": 0.1,
+        "bias": 0.035149090155027804,
+        "ppl": 36.581163978085314,
+        "pronoun": 1.0,
+        "bias_reduction_pct": 50.582395738809524,
+        "ppl_change_pct": 5.94989384615677
+      },
+      {
+        "alpha": 0.2,
+        "bias": 0.06778505080728792,
+        "ppl": 34.856008583630164,
+        "pronoun": 1.0,
+        "bias_reduction_pct": 4.6981073807372855,
+        "ppl_change_pct": 0.9533324732013883
+      },
+      {
+        "alpha": 0.3,
+        "bias": 0.07382055331836454,
+        "ppl": 34.65980331725926,
+        "pronoun": 1.0,
+        "bias_reduction_pct": -3.7874628941775588,
+        "ppl_change_pct": 0.3850638648950063
+      },
+      {
+        "alpha": 0.4,
+        "bias": 0.07432530710357241,
+        "ppl": 34.60133139859155,
+        "pronoun": 1.0,
+        "bias_reduction_pct": -4.497117758548844,
+        "ppl_change_pct": 0.21571185686331432
+      },
+      {
+        "alpha": 0.5,
+        "bias": 0.07360932905576192,
+        "ppl": 34.5783864218036,
+        "pronoun": 1.0,
+        "bias_reduction_pct": -3.490493698855024,
+        "ppl_change_pct": 0.1492564030007228
+      },
+      {
+        "alpha": 0.6,
+        "bias": 0.07201813102583401,
+        "ppl": 34.571849994389304,
+        "pronoun": 1.0,
+        "bias_reduction_pct": -1.2533605555120382,
+        "ppl_change_pct": 0.13032497175668967
+      },
+      {
+        "alpha": 0.7,
+        "bias": 0.07087737647234463,
+        "ppl": 34.56360401055992,
+        "pronoun": 1.0,
+        "bias_reduction_pct": 0.3504749018170273,
+        "ppl_change_pct": 0.10644215840762215
+      },
+      {
+        "alpha": 0.8,
+        "bias": 0.07086791872861795,
+        "ppl": 34.549707650468854,
+        "pronoun": 1.0,
+        "bias_reduction_pct": 0.3637719469077397,
+        "ppl_change_pct": 0.0661941805855236
+      },
+      {
+        "alpha": 0.9,
+        "bias": 0.0710558841645252,
+        "ppl": 34.537641575690955,
+        "pronoun": 1.0,
+        "bias_reduction_pct": 0.09950332756431408,
+        "ppl_change_pct": 0.03124725154236955
+      },
+      {
+        "alpha": 1.0,
+        "bias": 0.07112665299209767,
+        "ppl": 34.5268528831209,
+        "pronoun": 1.0,
+        "bias_reduction_pct": 6.415991927813105e-06,
+        "ppl_change_pct": 0.0
+      },
+      {
+        "alpha": 1.2,
+        "bias": 0.07153779360814952,
+        "ppl": 34.50444978456336,
+        "pronoun": 1.0,
+        "bias_reduction_pct": -0.5780337031161408,
+        "ppl_change_pct": -0.06488601389005197
+      },
+      {
+        "alpha": 1.5,
+        "bias": 0.07212255577906035,
+        "ppl": 34.47092608389321,
+        "pronoun": 1.0,
+        "bias_reduction_pct": -1.4001757677195523,
+        "ppl_change_pct": -0.1619805877385146
+      },
+      {
+        "alpha": 2.0,
+        "bias": 0.0724739508179482,
+        "ppl": 34.430350547735884,
+        "pronoun": 1.0,
+        "bias_reduction_pct": -1.8942170329277146,
+        "ppl_change_pct": -0.27949936738136794
+      }
+    ],
+    "steering_best_layer": [
+      {
+        "strength": -2.0,
+        "bias": 0.0741465465107467,
+        "ppl": 34.35445989706842,
+        "pronoun": 1.0,
+        "bias_reduction_pct": -4.245790620497935,
+        "ppl_change_pct": -0.4993011863434464
+      },
+      {
+        "strength": -1.5,
+        "bias": 0.07362928983056918,
+        "ppl": 34.39634555989632,
+        "pronoun": 1.0,
+        "bias_reduction_pct": -3.518557403088084,
+        "ppl_change_pct": -0.3779878915300315
+      },
+      {
+        "strength": -1.0,
+        "bias": 0.07294875832740218,
+        "ppl": 34.43905410750805,
+        "pronoun": 1.0,
+        "bias_reduction_pct": -2.5617691516013057,
+        "ppl_change_pct": -0.2542912784726331
+      },
+      {
+        "strength": -0.8,
+        "bias": 0.07263140415307134,
+        "ppl": 34.45633967332955,
+        "pronoun": 1.0,
+        "bias_reduction_pct": -2.1155873890422354,
+        "ppl_change_pct": -0.20422715626602117
+      },
+      {
+        "strength": -0.5,
+        "bias": 0.0721078368020244,
+        "ppl": 34.48254353414695,
+        "pronoun": 1.0,
+        "bias_reduction_pct": -1.3794817304319889,
+        "ppl_change_pct": -0.12833300829342412
+      },
+      {
+        "strength": -0.3,
+        "bias": 0.07172756487852894,
+        "ppl": 34.50017117201315,
+        "pronoun": 1.0,
+        "bias_reduction_pct": -0.8448412221270426,
+        "ppl_change_pct": -0.07727814405233441
+      },
+      {
+        "strength": -0.1,
+        "bias": 0.07132276620832272,
+        "ppl": 34.517944982927865,
+        "pronoun": 1.0,
+        "bias_reduction_pct": -0.275717515041675,
+        "ppl_change_pct": -0.0257999193358049
+      },
+      {
+        "strength": 0.0,
+        "bias": 0.07112665755557827,
+        "ppl": 34.5268528831209,
+        "pronoun": 1.0,
+        "bias_reduction_pct": 0.0,
+        "ppl_change_pct": 0.0
+      },
+      {
+        "strength": 0.1,
+        "bias": 0.0710165023629088,
+        "ppl": 34.535823464619696,
+        "pronoun": 1.0,
+        "bias_reduction_pct": 0.1548718813103275,
+        "ppl_change_pct": 0.02598146297654352
+      },
+      {
+        "strength": 0.3,
+        "bias": 0.07077859134878964,
+        "ppl": 34.55386059362251,
+        "pronoun": 1.0,
+        "bias_reduction_pct": 0.4893611182511387,
+        "ppl_change_pct": 0.0782223349258986
+      },
+      {
+        "strength": 0.5,
+        "bias": 0.0705174651404377,
+        "ppl": 34.572003856063596,
+        "pronoun": 1.0,
+        "bias_reduction_pct": 0.856489586431848,
+        "ppl_change_pct": 0.1307706007713376
+      },
+      {
+        "strength": 0.8,
+        "bias": 0.07008278042194434,
+        "ppl": 34.599456040287286,
+        "pronoun": 1.0,
+        "bias_reduction_pct": 1.467631362851898,
+        "ppl_change_pct": 0.21028026334215158
+      },
+      {
+        "strength": 1.0,
+        "bias": 0.06976476189447567,
+        "ppl": 34.61796218837578,
+        "pronoun": 1.0,
+        "bias_reduction_pct": 1.9147471678089494,
+        "ppl_change_pct": 0.26387955358484333
+      },
+      {
+        "strength": 1.5,
+        "bias": 0.06887358715175651,
+        "ppl": 34.66478052992195,
+        "pronoun": 1.0,
+        "bias_reduction_pct": 3.167687729542496,
+        "ppl_change_pct": 0.39947934805397356
+      },
+      {
+        "strength": 2.0,
+        "bias": 0.06784970654407516,
+        "ppl": 34.712418064194466,
+        "pronoun": 1.0,
+        "bias_reduction_pct": 4.607205124102047,
+        "ppl_change_pct": 0.5374517674742394
+      }
+    ],
+    "steering_L10": [
+      {
+        "strength": -2.0,
+        "bias": 0.0741465465107467,
+        "ppl": 34.35445989706842,
+        "pronoun": 1.0,
+        "bias_reduction_pct": -4.245790620497935,
+        "ppl_change_pct": -0.4993011863434464
+      },
+      {
+        "strength": -1.5,
+        "bias": 0.07362928983056918,
+        "ppl": 34.39634555989632,
+        "pronoun": 1.0,
+        "bias_reduction_pct": -3.518557403088084,
+        "ppl_change_pct": -0.3779878915300315
+      },
+      {
+        "strength": -1.0,
+        "bias": 0.07294875832740218,
+        "ppl": 34.43905410750805,
+        "pronoun": 1.0,
+        "bias_reduction_pct": -2.5617691516013057,
+        "ppl_change_pct": -0.2542912784726331
+      },
+      {
+        "strength": -0.8,
+        "bias": 0.07263140415307134,
+        "ppl": 34.45633967332955,
+        "pronoun": 1.0,
+        "bias_reduction_pct": -2.1155873890422354,
+        "ppl_change_pct": -0.20422715626602117
+      },
+      {
+        "strength": -0.5,
+        "bias": 0.0721078368020244,
+        "ppl": 34.48254353414695,
+        "pronoun": 1.0,
+        "bias_reduction_pct": -1.3794817304319889,
+        "ppl_change_pct": -0.12833300829342412
+      },
+      {
+        "strength": -0.3,
+        "bias": 0.07172756487852894,
+        "ppl": 34.50017117201315,
+        "pronoun": 1.0,
+        "bias_reduction_pct": -0.8448412221270426,
+        "ppl_change_pct": -0.07727814405233441
+      },
+      {
+        "strength": -0.1,
+        "bias": 0.07132276620832272,
+        "ppl": 34.517944982927865,
+        "pronoun": 1.0,
+        "bias_reduction_pct": -0.275717515041675,
+        "ppl_change_pct": -0.0257999193358049
+      },
+      {
+        "strength": 0.0,
+        "bias": 0.07112665755557827,
+        "ppl": 34.5268528831209,
+        "pronoun": 1.0,
+        "bias_reduction_pct": 0.0,
+        "ppl_change_pct": 0.0
+      },
+      {
+        "strength": 0.1,
+        "bias": 0.0710165023629088,
+        "ppl": 34.535823464619696,
+        "pronoun": 1.0,
+        "bias_reduction_pct": 0.1548718813103275,
+        "ppl_change_pct": 0.02598146297654352
+      },
+      {
+        "strength": 0.3,
+        "bias": 0.07077859134878964,
+        "ppl": 34.55386059362251,
+        "pronoun": 1.0,
+        "bias_reduction_pct": 0.4893611182511387,
+        "ppl_change_pct": 0.0782223349258986
+      },
+      {
+        "strength": 0.5,
+        "bias": 0.0705174651404377,
+        "ppl": 34.572003856063596,
+        "pronoun": 1.0,
+        "bias_reduction_pct": 0.856489586431848,
+        "ppl_change_pct": 0.1307706007713376
+      },
+      {
+        "strength": 0.8,
+        "bias": 0.07008278042194434,
+        "ppl": 34.599456040287286,
+        "pronoun": 1.0,
+        "bias_reduction_pct": 1.467631362851898,
+        "ppl_change_pct": 0.21028026334215158
+      },
+      {
+        "strength": 1.0,
+        "bias": 0.06976476189447567,
+        "ppl": 34.61796218837578,
+        "pronoun": 1.0,
+        "bias_reduction_pct": 1.9147471678089494,
+        "ppl_change_pct": 0.26387955358484333
+      },
+      {
+        "strength": 1.5,
+        "bias": 0.06887358715175651,
+        "ppl": 34.66478052992195,
+        "pronoun": 1.0,
+        "bias_reduction_pct": 3.167687729542496,
+        "ppl_change_pct": 0.39947934805397356
+      },
+      {
+        "strength": 2.0,
+        "bias": 0.06784970654407516,
+        "ppl": 34.712418064194466,
+        "pronoun": 1.0,
+        "bias_reduction_pct": 4.607205124102047,
+        "ppl_change_pct": 0.5374517674742394
+      }
+    ]
+  }
+}

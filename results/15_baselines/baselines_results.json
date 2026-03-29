@@ -1,0 +1,77 @@
+{
+  "comparison": {
+    "Baseline": {
+      "bias": 0.16617070011035628,
+      "bias_reduction_pct": 0.0,
+      "ppl": 40.65017162508021,
+      "ppl_change_pct": 0.0,
+      "pronoun": 1.0
+    },
+    "INLP (L10, 3 iter)": {
+      "bias": 0.02593364176429112,
+      "bias_reduction_pct": 84.39337275038969,
+      "ppl": 40.65017162508021,
+      "ppl_change_pct": 0.0,
+      "pronoun": 0.5
+    },
+    "Mean-subtraction (L10)": {
+      "bias": 0.31844210552096336,
+      "bias_reduction_pct": -91.63553220241685,
+      "ppl": 41.843768739036996,
+      "ppl_change_pct": 2.9362658661454764,
+      "pronoun": 0.5
+    },
+    "Head L10H9 ablation (ours)": {
+      "bias": 0.10751129762324337,
+      "bias_reduction_pct": 35.300689259993725,
+      "ppl": 40.23047013846927,
+      "ppl_change_pct": -1.0324716227077226,
+      "pronoun": 1.0
+    },
+    "True gender features (ours)": {
+      "bias": 0.13853208188491828,
+      "bias_reduction_pct": 16.632666412961377,
+      "ppl": 40.64210072380289,
+      "ppl_change_pct": -0.01985453186215254,
+      "pronoun": 1.0
+    },
+    "Combined L10H9+features (ours)": {
+      "bias": 0.091774405526065,
+      "bias_reduction_pct": 44.77100628142245,
+      "ppl": 40.24372613249395,
+      "ppl_change_pct": -0.9998616889860741,
+      "pronoun": 1.0
+    }
+  },
+  "jaccard_null": {
+    "5": {
+      "expected_jaccard": 0.019563928571428572,
+      "p_zero": 0.83628,
+      "p_nonzero": 0.16371999999999998
+    },
+    "10": {
+      "expected_jaccard": 0.03775994840041279,
+      "p_zero": 0.47594,
+      "p_nonzero": 0.52406
+    },
+    "15": {
+      "expected_jaccard": 0.05689206296352324,
+      "p_zero": 0.17392,
+      "p_nonzero": 0.82608
+    },
+    "20": {
+      "expected_jaccard": 0.07605285421496373,
+      "p_zero": 0.0408,
+      "p_nonzero": 0.9592
+    },
+    "5_three_way": 0.58117,
+    "10_three_way": 0.10041,
+    "15_three_way": 0.00412,
+    "20_three_way": 4e-05
+  },
+  "baseline": {
+    "bias": 0.16617070011035628,
+    "ppl": 40.65017162508021,
+    "pronoun": 1.0
+  }
+}

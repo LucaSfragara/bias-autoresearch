@@ -1,0 +1,505 @@
+{
+  "interventions": [
+    "Baseline",
+    "L10H9 ablation",
+    "Combined (L10H9 + SAE)",
+    "F23406 artifact",
+    "stereoset"
+  ],
+  "full_eval_results": {
+    "Baseline": {
+      "signed_bias": 0.07384522976020587,
+      "abs_bias": 0.12300863016784092,
+      "total_gender_mass": 0.19621960523475157,
+      "stereotype_preference": 0.77,
+      "n_prompts": 200,
+      "signed_bias_ci": [
+        0.049085499063271615,
+        0.09965438241493041
+      ],
+      "abs_bias_ci": [
+        0.10251498253464349,
+        0.14435654832401734
+      ],
+      "wikitext_ppl": 123.60457626112515,
+      "wikitext_ppl_median": 75.26206792876457,
+      "wikitext_ppl_ci": [
+        110.62973032274222,
+        138.56422956082594
+      ],
+      "winogender_male_pref": 0.7875,
+      "winogender_per_form": {
+        "he/she": 0.8202247191011236,
+        "his/her": 0.7592592592592593,
+        "him/her": 0.25
+      },
+      "winogender_n": 240,
+      "winogender_male_pref_ci": [
+        0.7333333333333333,
+        0.8375
+      ],
+      "lambada_acc": 0.248,
+      "lambada_acc_ci": [
+        0.21,
+        0.288
+      ],
+      "blimp": {
+        "anaphor_gender_agreement": 0.997,
+        "regular_plural_subject_verb_agreement_1": 0.966,
+        "mean": 0.9815,
+        "anaphor_gender_agreement_ci": [
+          0.993,
+          1.0
+        ],
+        "regular_plural_subject_verb_agreement_1_ci": [
+          0.954,
+          0.977
+        ]
+      },
+      "winobias_type1_pro": 0.5454545454545454,
+      "winobias_type1_anti": 0.5404040404040404,
+      "winobias_type1_gap": 0.005050505050504972,
+      "winobias_type2_pro": 0.6439393939393939,
+      "winobias_type2_anti": 0.4015151515151515,
+      "winobias_type2_gap": 0.24242424242424243,
+      "winobias_overall": 0.5328282828282828,
+      "winobias_type1_pro_ci": [
+        0.49747474747474746,
+        0.5959595959595959
+      ],
+      "winobias_type1_anti_ci": [
+        0.4898989898989899,
+        0.5883838383838383
+      ],
+      "winobias_type2_pro_ci": [
+        0.5959595959595959,
+        0.6919191919191919
+      ],
+      "winobias_type2_anti_ci": [
+        0.35353535353535354,
+        0.4494949494949495
+      ],
+      "crows_pairs_score": 0.6068702290076335,
+      "crows_pairs_n": 262,
+      "crows_pairs_ci": [
+        0.549618320610687,
+        0.6641221374045801
+      ],
+      "gap_overall": 0.7061477721376198,
+      "gap_masculine": 0.7052868391451068,
+      "gap_feminine": 0.7070135746606335,
+      "gap_n": 1773,
+      "gap_overall_ci": [
+        0.6847151720248167,
+        0.727580372250423
+      ]
+    },
+    "L10H9 ablation": {
+      "signed_bias": 0.07367170055521581,
+      "abs_bias": 0.09022742538470899,
+      "total_gender_mass": 0.16532470343576808,
+      "stereotype_preference": 0.84,
+      "n_prompts": 200,
+      "signed_bias_ci": [
+        0.055315716085186296,
+        0.09231138982925796
+      ],
+      "abs_bias_ci": [
+        0.07373095792810902,
+        0.10787646478926526
+      ],
+      "wikitext_ppl": 125.96355854142044,
+      "wikitext_ppl_median": 76.5152728720627,
+      "wikitext_ppl_ci": [
+        112.73412781044131,
+        141.4361876488661
+      ],
+      "winogender_male_pref": 0.8666666666666667,
+      "winogender_per_form": {
+        "he/she": 0.8876404494382022,
+        "his/her": 0.8888888888888888,
+        "him/her": 0.25
+      },
+      "winogender_n": 240,
+      "winogender_male_pref_ci": [
+        0.8208333333333333,
+        0.9083333333333333
+      ],
+      "lambada_acc": 0.25,
+      "lambada_acc_ci": [
+        0.212,
+        0.29
+      ],
+      "blimp": {
+        "anaphor_gender_agreement": 0.988,
+        "regular_plural_subject_verb_agreement_1": 0.969,
+        "mean": 0.9784999999999999,
+        "anaphor_gender_agreement_ci": [
+          0.981,
+          0.994
+        ],
+        "regular_plural_subject_verb_agreement_1_ci": [
+          0.958,
+          0.979
+        ]
+      },
+      "winobias_type1_pro": 0.5429292929292929,
+      "winobias_type1_anti": 0.5505050505050505,
+      "winobias_type1_gap": -0.007575757575757569,
+      "winobias_type2_pro": 0.6212121212121212,
+      "winobias_type2_anti": 0.4318181818181818,
+      "winobias_type2_gap": 0.1893939393939394,
+      "winobias_overall": 0.5366161616161615,
+      "winobias_type1_pro_ci": [
+        0.494949494949495,
+        0.5909090909090909
+      ],
+      "winobias_type1_anti_ci": [
+        0.5025252525252525,
+        0.5984848484848485
+      ],
+      "winobias_type2_pro_ci": [
+        0.5732323232323232,
+        0.6691919191919192
+      ],
+      "winobias_type2_anti_ci": [
+        0.3813131313131313,
+        0.4797979797979798
+      ],
+      "crows_pairs_score": 0.5916030534351145,
+      "crows_pairs_n": 262,
+      "crows_pairs_ci": [
+        0.5305343511450382,
+        0.648854961832061
+      ],
+      "gap_overall": 0.7100958826847151,
+      "gap_masculine": 0.7075365579302587,
+      "gap_feminine": 0.7126696832579186,
+      "gap_n": 1773,
+      "gap_overall_ci": [
+        0.6892272983643543,
+        0.7309644670050761
+      ]
+    },
+    "Combined (L10H9 + SAE)": {
+      "signed_bias": 0.07294457528984989,
+      "abs_bias": 0.0835457858963134,
+      "total_gender_mass": 0.16008352320225958,
+      "stereotype_preference": 0.875,
+      "n_prompts": 200,
+      "signed_bias_ci": [
+        0.056531965717705364,
+        0.09012363259493024
+      ],
+      "abs_bias_ci": [
+        0.06847726071085387,
+        0.09928688560592457
+      ],
+      "wikitext_ppl": 125.99381404241673,
+      "wikitext_ppl_median": 76.51704572858239,
+      "wikitext_ppl_ci": [
+        112.78645933427774,
+        141.28589424741816
+      ],
+      "winogender_male_pref": 0.9083333333333333,
+      "winogender_per_form": {
+        "he/she": 0.9325842696629213,
+        "his/her": 0.9259259259259259,
+        "him/her": 0.25
+      },
+      "winogender_n": 240,
+      "winogender_male_pref_ci": [
+        0.8708333333333333,
+        0.9416666666666667
+      ],
+      "lambada_acc": 0.25,
+      "lambada_acc_ci": [
+        0.21395000000000045,
+        0.288
+      ],
+      "blimp": {
+        "anaphor_gender_agreement": 0.985,
+        "regular_plural_subject_verb_agreement_1": 0.969,
+        "mean": 0.977,
+        "anaphor_gender_agreement_ci": [
+          0.977,
+          0.992
+        ],
+        "regular_plural_subject_verb_agreement_1_ci": [
+          0.958,
+          0.979
+        ]
+      },
+      "winobias_type1_pro": 0.5429292929292929,
+      "winobias_type1_anti": 0.5580808080808081,
+      "winobias_type1_gap": -0.015151515151515138,
+      "winobias_type2_pro": 0.6186868686868687,
+      "winobias_type2_anti": 0.43434343434343436,
+      "winobias_type2_gap": 0.18434343434343436,
+      "winobias_overall": 0.538510101010101,
+      "winobias_type1_pro_ci": [
+        0.494949494949495,
+        0.5934343434343434
+      ],
+      "winobias_type1_anti_ci": [
+        0.51010101010101,
+        0.6085858585858586
+      ],
+      "winobias_type2_pro_ci": [
+        0.5707070707070707,
+        0.6666666666666666
+      ],
+      "winobias_type2_anti_ci": [
+        0.3838383838383838,
+        0.4823232323232323
+      ],
+      "crows_pairs_score": 0.5763358778625954,
+      "crows_pairs_n": 262,
+      "crows_pairs_ci": [
+        0.5152671755725191,
+        0.6336832061068688
+      ],
+      "gap_overall": 0.7112239142695995,
+      "gap_masculine": 0.7086614173228346,
+      "gap_feminine": 0.7138009049773756,
+      "gap_n": 1773,
+      "gap_overall_ci": [
+        0.6897913141567964,
+        0.7315284827975184
+      ]
+    },
+    "F23406 artifact": {
+      "signed_bias": 0.050327948197067866,
+      "abs_bias": 0.08182144411660384,
+      "total_gender_mass": 0.13741145946721936,
+      "stereotype_preference": 0.765,
+      "n_prompts": 200,
+      "signed_bias_ci": [
+        0.02985291225425698,
+        0.0719141698956723
+      ],
+      "abs_bias_ci": [
+        0.06295627556915642,
+        0.10222107607085057
+      ],
+      "wikitext_ppl": 124.48885250949084,
+      "wikitext_ppl_median": 76.86252756411275,
+      "wikitext_ppl_ci": [
+        111.79175011123736,
+        140.07400379119974
+      ],
+      "winogender_male_pref": 0.775,
+      "winogender_per_form": {
+        "he/she": 0.8089887640449438,
+        "his/her": 0.7407407407407407,
+        "him/her": 0.25
+      },
+      "winogender_n": 240,
+      "winogender_male_pref_ci": [
+        0.7208333333333333,
+        0.8291666666666667
+      ],
+      "lambada_acc": 0.238,
+      "lambada_acc_ci": [
+        0.202,
+        0.276
+      ],
+      "blimp": {
+        "anaphor_gender_agreement": 0.997,
+        "regular_plural_subject_verb_agreement_1": 0.966,
+        "mean": 0.9815,
+        "anaphor_gender_agreement_ci": [
+          0.993,
+          1.0
+        ],
+        "regular_plural_subject_verb_agreement_1_ci": [
+          0.954,
+          0.977
+        ]
+      },
+      "winobias_type1_pro": 0.5454545454545454,
+      "winobias_type1_anti": 0.5404040404040404,
+      "winobias_type1_gap": 0.005050505050504972,
+      "winobias_type2_pro": 0.6439393939393939,
+      "winobias_type2_anti": 0.4015151515151515,
+      "winobias_type2_gap": 0.24242424242424243,
+      "winobias_overall": 0.5328282828282828,
+      "winobias_type1_pro_ci": [
+        0.49747474747474746,
+        0.5934343434343434
+      ],
+      "winobias_type1_anti_ci": [
+        0.4898989898989899,
+        0.5883838383838383
+      ],
+      "winobias_type2_pro_ci": [
+        0.5959595959595959,
+        0.6919191919191919
+      ],
+      "winobias_type2_anti_ci": [
+        0.35353535353535354,
+        0.4494949494949495
+      ],
+      "crows_pairs_score": 0.6106870229007634,
+      "crows_pairs_n": 262,
+      "crows_pairs_ci": [
+        0.549618320610687,
+        0.6679389312977099
+      ],
+      "gap_overall": 0.7078398195149465,
+      "gap_masculine": 0.703037120359955,
+      "gap_feminine": 0.7126696832579186,
+      "gap_n": 1773,
+      "gap_overall_ci": [
+        0.6864072194021432,
+        0.7287084038353074
+      ]
+    },
+    "stereoset": {
+      "Baseline": 0.0,
+      "L10H9 ablation": 0.0
+    }
+  },
+  "per_occupation": {
+    "hairdresser": {
+      "baseline_signed": -0.09436235284732249,
+      "baseline_abs": 0.09436474651308373,
+      "ablated_signed": -0.010889122937267005,
+      "ablated_abs": 0.01968582917468602,
+      "abs_reduction_pct": 79.13857665998695
+    },
+    "plumber": {
+      "baseline_signed": 0.15618878561109,
+      "baseline_abs": 0.15618878561109,
+      "ablated_signed": 0.11723119867748064,
+      "ablated_abs": 0.11723119867748064,
+      "abs_reduction_pct": 24.942627446807297
+    },
+    "dancer": {
+      "baseline_signed": -0.1675648486233566,
+      "baseline_abs": 0.1675648486233566,
+      "ablated_signed": -0.05999781146572989,
+      "ablated_abs": 0.060478293412423945,
+      "abs_reduction_pct": 63.907529548592024
+    },
+    "firefighter": {
+      "baseline_signed": 0.15377362161626698,
+      "baseline_abs": 0.15377362161626698,
+      "ablated_signed": 0.12321109534377736,
+      "ablated_abs": 0.12321109534377736,
+      "abs_reduction_pct": 19.875012327459903
+    },
+    "babysitter": {
+      "baseline_signed": -0.14954036156702344,
+      "baseline_abs": 0.14954036156702344,
+      "ablated_signed": -0.06726076868470514,
+      "ablated_abs": 0.06726076868470514,
+      "abs_reduction_pct": 55.02166235596483
+    },
+    "accountant": {
+      "baseline_signed": 0.1061520833173664,
+      "baseline_abs": 0.1061520833173664,
+      "ablated_signed": 0.08649830928363848,
+      "ablated_abs": 0.08649830928363848,
+      "abs_reduction_pct": 18.51473226055644
+    },
+    "lawyer": {
+      "baseline_signed": 0.08303432445139114,
+      "baseline_abs": 0.08303432445139114,
+      "ablated_signed": 0.07401379107916908,
+      "ablated_abs": 0.07401379107916908,
+      "abs_reduction_pct": 10.863619859566773
+    },
+    "chef": {
+      "baseline_signed": 0.13633352015244213,
+      "baseline_abs": 0.13633352015244213,
+      "ablated_signed": 0.10704751827540501,
+      "ablated_abs": 0.10704751827540501,
+      "abs_reduction_pct": 21.48114551931884
+    },
+    "farmer": {
+      "baseline_signed": 0.15369429048044497,
+      "baseline_abs": 0.15369429048044497,
+      "ablated_signed": 0.12051872929537613,
+      "ablated_abs": 0.12051872929537613,
+      "abs_reduction_pct": 21.5854219826757
+    },
+    "dentist": {
+      "baseline_signed": 0.14724862532206248,
+      "baseline_abs": 0.14724862532206248,
+      "ablated_signed": 0.10863896812226219,
+      "ablated_abs": 0.10863896812226219,
+      "abs_reduction_pct": 26.220725041834818
+    },
+    "professor": {
+      "baseline_signed": 0.08643922181908863,
+      "baseline_abs": 0.08643922181908863,
+      "ablated_signed": 0.0743563498359219,
+      "ablated_abs": 0.0743563498359219,
+      "abs_reduction_pct": 13.978459910799392
+    },
+    "therapist": {
+      "baseline_signed": -0.05133081446468406,
+      "baseline_abs": 0.051333964993744804,
+      "ablated_signed": -0.011951659545131842,
+      "ablated_abs": 0.025224754683715656,
+      "abs_reduction_pct": 50.8614720533455
+    },
+    "electrician": {
+      "baseline_signed": 0.12553945872596,
+      "baseline_abs": 0.12553945872596,
+      "ablated_signed": 0.10347159499153306,
+      "ablated_abs": 0.10347159499153306,
+      "abs_reduction_pct": 17.57842828127883
+    },
+    "architect": {
+      "baseline_signed": 0.09884727874110637,
+      "baseline_abs": 0.09884727874110637,
+      "ablated_signed": 0.07329159718776916,
+      "ablated_abs": 0.07329159718776916,
+      "abs_reduction_pct": 25.85370265418949
+    },
+    "cashier": {
+      "baseline_signed": 0.022767935589845578,
+      "baseline_abs": 0.022767935589845578,
+      "ablated_signed": 0.049069245524553294,
+      "ablated_abs": 0.049069245524553294,
+      "abs_reduction_pct": -115.51908039883479
+    },
+    "painter": {
+      "baseline_signed": 0.1518608009524101,
+      "baseline_abs": 0.1518608009524101,
+      "ablated_signed": 0.11798617930624777,
+      "ablated_abs": 0.11798617930624777,
+      "abs_reduction_pct": 22.306363071581288
+    },
+    "soldier": {
+      "baseline_signed": 0.20142036775713298,
+      "baseline_abs": 0.20142036775713298,
+      "ablated_signed": 0.16091876613590972,
+      "ablated_abs": 0.16091876613590972,
+      "abs_reduction_pct": 20.107997047225613
+    },
+    "athlete": {
+      "baseline_signed": 0.17898426988436303,
+      "baseline_abs": 0.17898426988436303,
+      "ablated_signed": 0.15795763453058997,
+      "ablated_abs": 0.15795763453058997,
+      "abs_reduction_pct": 11.74775602102355
+    },
+    "carpenter": {
+      "baseline_signed": 0.16603966343954274,
+      "baseline_abs": 0.16603966343954274,
+      "ablated_signed": 0.1371527781029247,
+      "ablated_abs": 0.1371527781029247,
+      "abs_reduction_pct": 17.397581228980606
+    },
+    "counselor": {
+      "baseline_signed": -0.028621275154009317,
+      "baseline_abs": 0.0290444337990964,
+      "ablated_signed": 0.012169618044591556,
+      "ablated_abs": 0.020535106046090545,
+      "abs_reduction_pct": 29.297619580289318
+    }
+  }
+}

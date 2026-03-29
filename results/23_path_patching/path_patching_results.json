@@ -1,0 +1,173 @@
+{
+  "occupations": [
+    "nurse",
+    "doctor",
+    "engineer",
+    "secretary",
+    "CEO",
+    "teacher",
+    "programmer",
+    "mechanic",
+    "pilot",
+    "surgeon",
+    "dancer",
+    "firefighter",
+    "chef",
+    "dentist"
+  ],
+  "total_effect": -0.06419076428677986,
+  "mean_clean_bias": 0.0315508990159807,
+  "mean_corrupted_bias": 0.09574166330276057,
+  "sufficiency": {
+    "patched_bias": 0.0830256761338595,
+    "recovery_pct": 19.809683417852096
+  },
+  "necessity": {
+    "patched_bias": 0.051948267576725424,
+    "removal_pct": 31.776173440455118
+  },
+  "upstream_top15": {
+    "L9H7": {
+      "layer": 9,
+      "head": 7,
+      "patched_bias": 0.07178623738582246,
+      "recovery_pct": 37.31911626294636
+    },
+    "L8H5": {
+      "layer": 8,
+      "head": 5,
+      "patched_bias": 0.11360353408755534,
+      "recovery_pct": -27.82623171897592
+    },
+    "L9H2": {
+      "layer": 9,
+      "head": 2,
+      "patched_bias": 0.07961133328457695,
+      "recovery_pct": 25.128739659880345
+    },
+    "L4H3": {
+      "layer": 4,
+      "head": 3,
+      "patched_bias": 0.08356698472718042,
+      "recovery_pct": 18.966402300733993
+    },
+    "L4H7": {
+      "layer": 4,
+      "head": 7,
+      "patched_bias": 0.08449521099100821,
+      "recovery_pct": 17.520358971000658
+    },
+    "L7H3": {
+      "layer": 7,
+      "head": 3,
+      "patched_bias": 0.10630349535702928,
+      "recovery_pct": -16.45381884461803
+    },
+    "L4H11": {
+      "layer": 4,
+      "head": 11,
+      "patched_bias": 0.10611978589232811,
+      "recovery_pct": -16.16762585871336
+    },
+    "L3H6": {
+      "layer": 3,
+      "head": 6,
+      "patched_bias": 0.08749777809550453,
+      "recovery_pct": 12.842790254480056
+    },
+    "L8H2": {
+      "layer": 8,
+      "head": 2,
+      "patched_bias": 0.08762552113330457,
+      "recovery_pct": 12.643784931177876
+    },
+    "L8H8": {
+      "layer": 8,
+      "head": 8,
+      "patched_bias": 0.08877548516777876,
+      "recovery_pct": 10.852305971481947
+    },
+    "L5H2": {
+      "layer": 5,
+      "head": 2,
+      "patched_bias": 0.08939649140354179,
+      "recovery_pct": 9.884867363092667
+    },
+    "L5H11": {
+      "layer": 5,
+      "head": 11,
+      "patched_bias": 0.10199702482454345,
+      "recovery_pct": -9.744955681757062
+    },
+    "L1H11": {
+      "layer": 1,
+      "head": 11,
+      "patched_bias": 0.10180480430634427,
+      "recovery_pct": -9.445503695736349
+    },
+    "L4H6": {
+      "layer": 4,
+      "head": 6,
+      "patched_bias": 0.10158884636725166,
+      "recovery_pct": -9.10907221399822
+    },
+    "L7H5": {
+      "layer": 7,
+      "head": 5,
+      "patched_bias": 0.09033965562619935,
+      "recovery_pct": 8.415552836920067
+    }
+  },
+  "mediation": {
+    "L9H7": {
+      "total_recovery": 37.31911626294636,
+      "direct_recovery": 21.367839374715214,
+      "mediated_pct": 42.742911637825166
+    },
+    "L8H5": {
+      "total_recovery": -27.82623171897592,
+      "direct_recovery": -9.190396149294026,
+      "mediated_pct": 66.97218566228024
+    },
+    "L9H2": {
+      "total_recovery": 25.128739659880345,
+      "direct_recovery": 14.617317599014989,
+      "mediated_pct": 41.83027960493255
+    },
+    "L4H3": {
+      "total_recovery": 18.966402300733993,
+      "direct_recovery": 3.2555405605884125,
+      "mediated_pct": 82.83522352341298
+    },
+    "L4H7": {
+      "total_recovery": 17.520358971000658,
+      "direct_recovery": 4.996648156777106,
+      "mediated_pct": 71.48090307385289
+    },
+    "L7H3": {
+      "total_recovery": -16.45381884461803,
+      "direct_recovery": -12.214307794988978,
+      "mediated_pct": 25.76612207531108
+    },
+    "L4H11": {
+      "total_recovery": -16.16762585871336,
+      "direct_recovery": 0.45574260461034743,
+      "mediated_pct": 102.81885917323817
+    },
+    "L3H6": {
+      "total_recovery": 12.842790254480056,
+      "direct_recovery": 3.335596243868176,
+      "mediated_pct": 74.02748018345453
+    },
+    "L8H2": {
+      "total_recovery": 12.643784931177876,
+      "direct_recovery": 10.788331130594301,
+      "mediated_pct": 14.674828864682766
+    },
+    "L8H8": {
+      "total_recovery": 10.852305971481947,
+      "direct_recovery": 8.31270299123912,
+      "mediated_pct": 23.401505514063814
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "Gender": {
+    "baseline": 0.1172294732183218,
+    "ablated": 0.07423802986741065,
+    "reduction_pct": 36.672896474461005,
+    "n_prompts": 20,
+    "l10h9_rank": 2,
+    "top5_heads": [
+      "L0H8",
+      "L10H9",
+      "L5H9",
+      "L11H0",
+      "L0H9"
+    ]
+  },
+  "Race": {
+    "baseline": 4.451423562557011e-05,
+    "ablated": 5.030684179985201e-05,
+    "reduction_pct": -13.012929668176712,
+    "n_prompts": 16,
+    "l10h9_rank": 132,
+    "top5_heads": [
+      "L0H8",
+      "L0H9",
+      "L5H9",
+      "L9H5",
+      "L0H11"
+    ]
+  },
+  "Age": {
+    "baseline": 0.000535803368317526,
+    "ablated": 0.0005895570490489869,
+    "reduction_pct": -10.03235214818687,
+    "n_prompts": 12,
+    "l10h9_rank": 129,
+    "top5_heads": [
+      "L0H8",
+      "L0H11",
+      "L0H10",
+      "L11H0",
+      "L0H7"
+    ]
+  },
+  "Religion": {
+    "baseline": 0.0002462703055584825,
+    "ablated": 0.00028804251097653833,
+    "reduction_pct": -16.96193348334318,
+    "n_prompts": 10,
+    "l10h9_rank": 132,
+    "top5_heads": [
+      "L0H8",
+      "L0H11",
+      "L11H3",
+      "L0H9",
+      "L11H0"
+    ]
+  }
+}
