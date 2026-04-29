@@ -1,0 +1,178 @@
+{
+  "Baseline": {
+    "label": "Baseline",
+    "male_occ": {
+      "signed_bias": 0.14287116090635693,
+      "abs_bias": 0.14287116090635693,
+      "total_gender_mass": 0.1852182982527168,
+      "stereotype_preference": 0.14287116090635693
+    },
+    "female_occ": {
+      "signed_bias": -0.1532803067029306,
+      "abs_bias": 0.1532906134410325,
+      "total_gender_mass": 0.2796617134409246,
+      "stereotype_preference": 0.1532803067029306
+    },
+    "neutral": {
+      "signed_bias": 0.08055282491390699,
+      "abs_bias": 0.0805553821235344,
+      "total_gender_mass": 0.1771192427053802,
+      "stereotype_preference": 0.0
+    },
+    "male_amp": 0.062318335992449944,
+    "female_amp": -0.2338331316168376,
+    "amplification": 0.14807573380464378
+  },
+  "L10H9 ablation": {
+    "label": "L10H9 ablation",
+    "male_occ": {
+      "signed_bias": 0.11828685602109842,
+      "abs_bias": 0.11828685602109842,
+      "total_gender_mass": 0.15860176788866126,
+      "stereotype_preference": 0.11828685602109842
+    },
+    "female_occ": {
+      "signed_bias": -0.07538270815238661,
+      "abs_bias": 0.08867520801765635,
+      "total_gender_mass": 0.24711954469203762,
+      "stereotype_preference": 0.07538270815238661
+    },
+    "neutral": {
+      "signed_bias": 0.07209253870335942,
+      "abs_bias": 0.07209366447524644,
+      "total_gender_mass": 0.14897912666041066,
+      "stereotype_preference": 0.0
+    },
+    "male_amp": 0.046194317317739,
+    "female_amp": -0.14747524685574603,
+    "amplification": 0.09683478208674251,
+    "debiasing_criteria": {
+      "amp_reduction_pct": 34.60455698358981,
+      "mass_change_pct": -15.887667313421213,
+      "neutral_sign_worsened": false,
+      "male_stereo_reduction": 0.024584304885258507,
+      "female_stereo_reduction": 0.077897598550544,
+      "criteria_passed": [
+        true,
+        true,
+        false,
+        true
+      ],
+      "verdict": "LIKELY \u2713"
+    }
+  },
+  "L10H9 attenuation (\u03b1=0.5)": {
+    "label": "L10H9 attenuation (\u03b1=0.5)",
+    "male_occ": {
+      "signed_bias": 0.13314693518689397,
+      "abs_bias": 0.13314693518689397,
+      "total_gender_mass": 0.17473230999196615,
+      "stereotype_preference": 0.13314693518689397
+    },
+    "female_occ": {
+      "signed_bias": -0.1219196438000921,
+      "abs_bias": 0.12219367996134167,
+      "total_gender_mass": 0.26739101193478804,
+      "stereotype_preference": 0.1219196438000921
+    },
+    "neutral": {
+      "signed_bias": 0.07826664708142061,
+      "abs_bias": 0.07826839309880824,
+      "total_gender_mass": 0.16546818067943833,
+      "stereotype_preference": 0.0
+    },
+    "male_amp": 0.05488028810547335,
+    "female_amp": -0.2001862908815127,
+    "amplification": 0.12753328949349302,
+    "debiasing_criteria": {
+      "amp_reduction_pct": 13.87293094517395,
+      "mass_change_pct": -6.578089337669618,
+      "neutral_sign_worsened": false,
+      "male_stereo_reduction": 0.009724225719462964,
+      "female_stereo_reduction": 0.03136066290283851,
+      "criteria_passed": [
+        false,
+        true,
+        true,
+        true
+      ],
+      "verdict": "LIKELY \u2713"
+    }
+  },
+  "Multi-head ablation (top-5)": {
+    "label": "Multi-head ablation (top-5)",
+    "male_occ": {
+      "signed_bias": 0.1157701831669307,
+      "abs_bias": 0.1157701831669307,
+      "total_gender_mass": 0.16064273912936428,
+      "stereotype_preference": 0.1157701831669307
+    },
+    "female_occ": {
+      "signed_bias": -0.04490744869431751,
+      "abs_bias": 0.07037261006567519,
+      "total_gender_mass": 0.24602437506904948,
+      "stereotype_preference": 0.04490744869431751
+    },
+    "neutral": {
+      "signed_bias": 0.0723261040022794,
+      "abs_bias": 0.07232700673938097,
+      "total_gender_mass": 0.14527684349690617,
+      "stereotype_preference": 0.0
+    },
+    "male_amp": 0.0434440791646513,
+    "female_amp": -0.11723355269659691,
+    "amplification": 0.08033881593062411,
+    "debiasing_criteria": {
+      "amp_reduction_pct": 45.74477943674428,
+      "mass_change_pct": -17.977944521512367,
+      "neutral_sign_worsened": false,
+      "male_stereo_reduction": 0.027100977739426227,
+      "female_stereo_reduction": 0.1083728580086131,
+      "criteria_passed": [
+        true,
+        true,
+        false,
+        true
+      ],
+      "verdict": "LIKELY \u2713"
+    }
+  },
+  "Random 5-head control": {
+    "label": "Random 5-head control (heads: [(10, 1), (0, 11), (4, 3), (3, 2), (11, 1)])",
+    "male_occ": {
+      "signed_bias": 0.1753602865232125,
+      "abs_bias": 0.1753602865232125,
+      "total_gender_mass": 0.2059425833511142,
+      "stereotype_preference": 0.1753602865232125
+    },
+    "female_occ": {
+      "signed_bias": -0.06307216075729798,
+      "abs_bias": 0.10137962141369031,
+      "total_gender_mass": 0.2621677560401565,
+      "stereotype_preference": 0.06307216075729798
+    },
+    "neutral": {
+      "signed_bias": 0.10588949151514043,
+      "abs_bias": 0.10588949151514043,
+      "total_gender_mass": 0.17526776712120865,
+      "stereotype_preference": 0.0
+    },
+    "male_amp": 0.06947079500807207,
+    "female_amp": -0.16896165227243842,
+    "amplification": 0.11921622364025525,
+    "debiasing_criteria": {
+      "amp_reduction_pct": 19.489695849134318,
+      "mass_change_pct": -1.0453271789367218,
+      "neutral_sign_worsened": true,
+      "male_stereo_reduction": -0.032489125616855574,
+      "female_stereo_reduction": 0.09020814594563263,
+      "criteria_passed": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "verdict": "WEAK ~"
+    }
+  }
+}
